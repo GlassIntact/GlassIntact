@@ -37,3 +37,33 @@ body {
     height:100%
     font-family: Tahoma ;
 }
+
+
+
+.navbar__links:hover {
+    border-color:black;
+    color: #fcafae;
+    transform: translateY(-0.30em);
+    cursor:pointer;
+    transition: all 0.5s ease;
+      }
+    
+
+.navbar_logo {
+    background-color:black;
+    color:#fcafae;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2ems;
+    padding-right: 250px;
+
+}
+.navbar_logo:hover{
+    transform: translate3d(-1rem, 0, 1rem);
+    transition: all 1s ease;
+}
+.navbar_logo::after{
+    transition:all 1s ease;
+}
