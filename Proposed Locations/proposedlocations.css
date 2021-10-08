@@ -1,12 +1,12 @@
 @font-face {
     font-family: "Montserrat";
     /*Make sure to change the destination of the file on the Github*/
-    src:url("C:/Users/meeky/Desktop/Universities/SEG 2900/Final Project/Fonts/Montserrat/Montserrat-Regular.ttf")
+    src:url("Fonts/Montserrat/Montserrat-Regular.ttf")
 }
 
 @font-face{
     font-family: "Montserrat Bold";
-    src:url("C:/Users/meeky/Desktop/Universities/SEG 2900/Final Project/Fonts/Montserrat/Montserrat-Bold.ttf")
+    src:url("Fonts/Montserrat/Montserrat-Bold.ttf")
 }
 body{
     font-family: "Montserrat";
