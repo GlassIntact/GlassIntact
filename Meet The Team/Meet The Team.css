@@ -1,0 +1,118 @@
+div.nav{
+    background-color: black;
+    color: #f27980;
+    height: 75px;
+}
+
+li{
+    display: inline;
+    padding: 70px;
+}
+
+h1 {
+    position: center;
+    margin-top: 30px;
+    font-size: 50px;
+    font-style: oblique;
+    color: black;
+}
+
+body{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    background-color: whitesmoke;
+}
+
+div.body{
+    position: absolute;
+    top: 100px;
+    left: 75px;
+}
+
+
+div.content{
+    background-color: white;
+    height: 250px;
+    width: 350px;
+    border: 10px solid #f27980;
+    margin: -50px
+}
+
+div.image{
+
+    border: 5px solid #f27980;
+    width: 150px;
+    height: 150px;
+}
+
+div#meekyle{
+    position: absolute;
+    left:100px;
+    top: 200px;
+
+}
+div#samuel{
+    position: absolute;
+    left:550px;
+    top: 200px;
+}
+
+div#darshan{
+    position: absolute;
+    left:1000px;
+    top: 200px;
+}
+
+div#andre{
+    position: absolute;
+    left:100px;
+    top: 600px;
+}
+
+div#kristen{
+    position: absolute;
+    left:550px;
+    top: 600px;
+}
+
+div#nodshley{
+    position: absolute;
+    left:1000px;
+    top: 600px;
+}
+
+div#image1{
+    position: absolute;
+    left:300px;
+    top:300px
+}
+
+div#image2{
+    position: absolute;
+    left:750px;
+    top:300px
+}
+
+div#image3{
+    position: absolute;
+    left:1200px;
+    top:300px
+}
+
+div#image4{
+    position: absolute;
+    left:750px;
+    top: 700px
+}
+
+div#image5{
+    position: absolute;
+    left:300px;
+    top:700px
+}
+
+div#image6{
+    position: absolute;
+    left:1200px;
+    top:700px
+}
