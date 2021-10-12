@@ -1,15 +1,25 @@
 @font-face {
     font-family: "Montserrat";
     /*Make sure to change the destination of the file on the Github*/
-    src:url("../Fonts/Montserrat/Montserrat-Regular.ttf")
+    src:url("Montserrat-Regular.ttf")
 }
 
 @font-face{
     font-family: "Montserrat Bold";
-    src:url("../Fonts/Montserrat/Montserrat-Bold.ttf")
+    src:url("Montserrat-Bold.ttf")
+}
+
+.iconLogo {
+    width: 75px;
+    height: 75px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 50px;
 }
 
 body {
+    font-family: "Montserrat";
     background-color: white;
 }
 
