@@ -10,7 +10,7 @@ top:0;
 z-index:999;
 }
 
-.navbar_cont{
+.navbarCont{
 display:flex;
 justify-content: space-between;
 height:80px;
@@ -22,7 +22,7 @@ padding: 0 50px;
 border:none;
 }
 
-.navbar__links:hover {
+.navbarLinks:hover {
 border-color:black;
 color: #fcafae;
 transform: translateY(-0.30em);
@@ -30,7 +30,7 @@ cursor:pointer;
 transition: all 0.5s ease;
 }
 
-.navbar_logo {
+.navbarLogo {
 background-color:black;
 color:#fcafae;
 display: flex;
