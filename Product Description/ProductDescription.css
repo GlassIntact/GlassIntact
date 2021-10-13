@@ -9,18 +9,23 @@
     src:url("Montserrat-Bold.ttf")
 }
 
-.iconLogo {
-    width: 75px;
-    height: 75px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 50px;
-}
 
 body {
     font-family: "Montserrat";
     background-color: white;
+}
+
+
+.header {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header h1 {
+    color: #f27980;
+    text-decoration: underline;
+    font-family: "Montserrat Bold";
 }
 
 .navbar {
