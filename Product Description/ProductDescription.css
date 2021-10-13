@@ -1,5 +1,31 @@
+@font-face {
+    font-family: "Montserrat";
+    /*Make sure to change the destination of the file on the Github*/
+    src:url("Montserrat-Regular.ttf")
+}
+
+@font-face{
+    font-family: "Montserrat Bold";
+    src:url("Montserrat-Bold.ttf")
+}
+
+
 body {
+    font-family: "Montserrat";
     background-color: white;
+}
+
+
+.header {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header h1 {
+    color: #f27980;
+    text-decoration: underline;
+    font-family: "Montserrat Bold";
 }
 
 .navbar {
@@ -66,4 +92,32 @@ body {
 }
 .navbar_logo::after{
     transition:all 1s ease;
+}
+
+body{
+    background-image: url("images/glasses.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#main-header{
+    color:#f27980;
+    text-align:center;
+    font-family: "Montserrat-Bold";
+    padding:10px;
+}
+
+#header2{
+    text-align: center;
+    font-family: "Montserrat-Bold";
+    font-size: 30px;
+}
+
+.main{
+    width:60%;
+    margin:auto;
+    overflow:hidden;
+    font-family: "Montserrat";
+    color: white;
+    font-weight: bold;
 }

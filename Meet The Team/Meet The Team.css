@@ -1,36 +1,110 @@
-div.nav{
-    background-color: black;
-    color: #f27980;
-    height: 75px;
+@font-face {
+    font-family: "Montserrat";
+    src:url("Montserrat-Regular.ttf");
 }
 
-li{
-    display: inline;
-    padding: 70px;
+@font-face{
+    font-family: "Montserrat Bold";
+    src:url("Montserrat-Bold.ttf");
 }
 
-h1 {
-    position: center;
-    margin-top: 30px;
-    font-size: 50px;
-    font-style: oblique;
-    color: black;
+.navbar {
+    background:#000000;
+    height: 80px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 1rem;
+    position:sticky;
+    top:0;
+    z-index:999;
 }
 
-body{
-    font-family: 'Montserrat';
-    font-size: 20px;
+.navbar_container{
+    display:flex;
+    justify-content: space-between;
+    height:80px;
+    z-index:1;
+    width: 100%;
+    max-width:1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+    border:none;
+    
+
+}
+.navbar__links{
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    width:150px;
+    text-decoration:none;
+    height:100%;
+    font-family: Tahoma ;
+}
+
+
+
+.navbar__links:hover {
+    border-color:black;
+    color: #fcafae;
+    transform: translateY(-0.30em);
+    cursor:pointer;
+    transition: all 0.5s ease;
+      }
+    
+
+.navbar_logo {
+    background-color:black;
+    color:#fcafae;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2ems;
+    padding-right: 200px;
+
+}
+.navbar_logo:hover{
+    transform: translateX(-0.20em);
+    transition: all 0.5s ease;
+   
+}
+.navbar_logo::after{
+    transition:all 1s ease;
+}
+
+.main-content{
+    margin-top: 40px;
+    border: 2px solid #f27980;
     background-color: whitesmoke;
 }
 
+h1 {
+font-family: "Montserrat Bold";
+position: center;
+margin-top: 30px;
+font-size: 50px;
+font-style: oblique;
+color: black;
+}
+
+body{
+font-family: "Montserrat";
+font-size: 20px;
+background-color: whitesmoke;
+}
+
 div.body{
-    position: absolute;
-    top: 100px;
-    left: 75px;
+position: absolute;
+top: 100px;
+left: 75px;
 }
 
 
 div.content{
+    font-family: "Montserrat";
     background-color: white;
     height: 250px;
     width: 350px;
