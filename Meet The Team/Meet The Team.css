@@ -75,6 +75,12 @@
     transition:all 1s ease;
 }
 
+.main-content{
+    margin-top: 40px;
+    border: 2px solid #f27980;
+    background-color: whitesmoke;
+}
+
 h1 {
 font-family: "Montserrat Bold";
 position: center;
