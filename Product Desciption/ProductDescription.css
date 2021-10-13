@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "Montserrat";
+    /*Make sure to change the destination of the file on the Github*/
+    src:url("Montserrat-Regular.ttf")
+}
+
+@font-face{
+    font-family: "Montserrat Bold";
+    src:url("Montserrat-Bold.ttf")
+}
+body{
+    font-family: "Montserrat";
+}
+.navigation{
+    background-color: black;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 17px;
+}
+table{
+    border: 5px solid black;
+    border-collapse: collapse;
+}
+
+.logo{
+    width: 75px;
+    height: 75px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 50px;
+}
+
+.link-cell, .link-current-cell{
+    border: 1px solid black;
+    padding: 0px 70px;
+}
+
+.link, .link-current{
+    color: #f27980;
+}
+
+.link-current-cell{
+    background-color: white;
+}
+
+@keyframes fadeToWhite {
+    from {background-color: black;}
+    to {background-color: white;}
+}
+.link-cell:hover{
+    background-color: white;
+    animation-name: fadeToWhite;
+    animation-duration: 0.25s;
+}
+
+
+.main-content{
+    margin-top: 40px;
+    border: 2px solid #f27980;
+    background-color: whitesmoke;
+}
+.header{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header h1{
+    color: #f27980;
+    text-decoration: underline;
+    font-family: "Montserrat Bold";
+}
+
+.caption{
+    width: 40%;
+    margin: 0 auto;
+    font-style: italic;
+}
+
+.caption p{
+    color: grey;
+    text-align: center;
+}
+
+.map{
+    padding: 40px;
+    text-align: center;
+}
+
+.map img{
+    border: 5px solid #f27980;
+}
+
+.bars-info-table{
+    border: none;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.bars-info-table td{
+    width: 50%;
+    padding: 40px 0px;
+    text-align: center;
+}
+
+.location{
+    color: #f27980;
+    font-family: "Montserrat Bold";
+}
