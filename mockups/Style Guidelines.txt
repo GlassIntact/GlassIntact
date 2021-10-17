@@ -1,6 +1,5 @@
 Overall Look and Feel of GlassIntact:
 ====================================
-
 The overall look and feel should be a minimal and classy layout that is easy to navigate for users due to the 
 serious subject matter our product is addressing. We want a warm, welcoming and calming feeling to the website 
 that will use Neapolitan pastel colours due to the emotions that can be evoked by our product. 
