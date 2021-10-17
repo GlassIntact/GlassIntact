@@ -11,7 +11,7 @@
     color:#F27980;
     font-family:'Roboto';
    
-    font-size:60px;
+    font-size:120px;
     
   }
   
@@ -175,24 +175,97 @@
   }
 
 #logo_image{
-  width:30%;
-  margin:calc(9%/6);
+  width:20%;
+  margin-right: 0px;
   transition:1s;
   padding-top: 30em;
-  display: inline;
+  flex-basis:40%;
+  display:flex;
+  padding-left:20px;
+
 
 }
-#logo_image:hover {
+#logo_image:hover{
   border-color:white;
   border-style:solid;
   border-width: 0em;
   color:#F27980;
-  box-shadow: 0 0.5em 0.5em -0.4em #F27980;
-  transform: translateY(-4.3em);
+  box-shadow: 0.1 0.3em 1.2em 1em #8179f2;
+  transform: translateY(-3.3em);
   cursor:pointer;
+  
+  
   
 }
 #container{
-  padding-top: 30em;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+}
+
+
+
+.homecontent p {
+
+  margin-top: 100px;
+
+  float:right;
+  padding-left:20px;
+  font-family:'Roboto';
+  font-size: 1.3em;
+  color:#F27980;
+  padding-right:20px;
+  margin-right:60px;
+  
+
+}
+.homecontent p button {
+  background:black;
+  color:white;
+  border-style:solid;
+  border-width:0.1rem;
+  font-family:'Roboto';
+  transition:all 1s ease;
+  padding: 1em 2em;
+  border-color:cyan;
+
+
+}
+#homecontent p button:hover{
+  border-color:white;
+  color:white;
+  box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+  transform: translateY(-3.4em);
+  cursor:pointer;
+  transition:all 1s ease;
+
+
+
+}
+
+#pitle{
+  transition: all 1s ease;
+
+}
+#ptitle:hover{
+  transform: translateY(0.3em);
   transition: all 1s ease;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
