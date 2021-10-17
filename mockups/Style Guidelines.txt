@@ -1,0 +1,33 @@
+Overall Look and Feel of GlassIntact:
+====================================
+
+The overall look and feel should be a minimal and classy layout that is easy to navigate for users due to the 
+serious subject matter our product is addressing. We want a warm, welcoming and calming feeling to the website 
+that will use Neapolitan pastel colours due to the emotions that can be evoked by our product. 
+
+Colours:
+=======
+As mentioned in the previous section, we mentioned we are going to be using Neapolitan colours throughout our 
+website. The hex codes for the colours are as follows:
+
+- Default Colour: White (#FFFFFF)
+- Primary Colour: Pink (#F27980)
+- Secondary Colour: Black (#1D1D1D)
+- Tertiary Colour: Yellow (#FDAEAE)
+
+Iconography: 
+============
+We will be using a combination of 2D and 3D icons throughout our webpage 
+
+Typography:
+===========
+We will be using Montserrat from Google Fonts
+
+Links:
+======
+Links should not be underlined, but when hovered should change their text colour 
+
+Buttons:
+========
+Buttons will be flat, with background colours outlined in the Colours section 
+of this document
