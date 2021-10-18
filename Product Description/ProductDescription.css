@@ -9,14 +9,23 @@
     src:url("Montserrat-Bold.ttf")
 }
 
+html{
+    background-image: url("Graphics/scotch_full.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: #2d2928;
+    height: 100%;
+}
 
 body {
-    font-family: "Montserrat";
-    background-color: white;
+    font-family: "Montserrat-Regular";
+
 }
 
 
 .header {
+    font-family: "Montserrat Bold";
     width: 100%;
     margin: 0 auto;
     text-align: center;
@@ -24,8 +33,12 @@ body {
 
 .header h1 {
     color: #f27980;
-    text-decoration: underline;
-    font-family: "Montserrat Bold";
+    font-size: 75px;
+    text-shadow: 2px 2px #000000;
+}
+
+.main {
+    font-family: "Montserrat-Regular";
 }
 
 .navbar {
@@ -64,8 +77,6 @@ body {
     font-family: Tahoma ;
 }
 
-
-
 .navbar__links:hover {
     border-color:black;
     color: #fcafae;
@@ -74,7 +85,6 @@ body {
     transition: all 0.5s ease;
       }
     
-
 .navbar_logo {
     background-color:black;
     color:#fcafae;
@@ -84,20 +94,15 @@ body {
     text-decoration: none;
     font-size: 2ems;
     padding-right: 250px;
-
 }
+
 .navbar_logo:hover{
     transform: translate3d(-1rem, 0, 1rem);
     transition: all 1s ease;
 }
+
 .navbar_logo::after{
     transition:all 1s ease;
-}
-
-body{
-    background-image: url("images/glasses.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
 }
 
 #main-header{
