@@ -27,7 +27,7 @@ body {
 .header {
     font-family: "Montserrat Bold";
     width: 100%;
-    margin: 0 auto;
+    margin: 0 auto ;
     text-align: center;
 }
 
@@ -35,6 +35,13 @@ body {
     color: #f27980;
     font-size: 75px;
     text-shadow: 2px 2px #000000;
+}
+
+.header h2 {
+    color: #ffff;
+    font-size: 30px;
+    text-shadow: 2px 2px #000000;
+
 }
 
 .main {
