@@ -13,6 +13,40 @@ body {
     background-color: white;
 }
 
+@keyframes fadeAndscale{
+    0%{
+        opacity: 0;
+        transform: scale3d(.75,.75,1);
+    }
+
+    50%{
+        opacity: 0;
+        transform: scale3d(.75,.75,1);
+    }
+
+    100%{
+        opacity: 1;
+        transform: scale3d(1,1,1);
+    }
+}
+
+.header{
+    animation: fadeAndscale 1s; /*cubic-bezier(.39,-1.05,.58,1.95);*/
+    animation-delay: -0.5s;
+    transform-origin: center bottom;
+}
+
+#header2{
+    animation: fadeAndscale 1.5s ;
+    animation-delay: -0.3s;
+    transform-origin: center bottom;
+}
+
+#description{
+    animation: fadeAndscale 2s ;
+    transform-origin: center bottom;
+}
+
 .navbar {
     background:#000000;
     height: 80px;
