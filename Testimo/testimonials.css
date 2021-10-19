@@ -1,5 +1,41 @@
-body {
-    background-color: white;
+
+@font-face {
+    font-family: "Montserrat";
+    /*Make sure to change the destination of the file on the Github*/
+    src:url("../Fonts/Montserrat/Montserrat-Regular.ttf")
+}
+
+@font-face{
+    font-family: "Montserrat Bold";
+    src:url("../Fonts/Montserrat/Montserrat-Bold.ttf")
+}
+
+html{
+    background-image: url("images/bar3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+h1 { 
+    text-align: center;
+    color: #f27980;
+    font-size: 75px;
+    font-family: "Montserrat Bold";
+
+}
+h2{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: "Montserrat";
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: "Montserrat";
 }
 
 .navbar {
