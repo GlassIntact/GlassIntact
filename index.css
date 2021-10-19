@@ -11,7 +11,7 @@
     color:#F27980;
     font-family:'Roboto';
    
-    font-size:120px;
+    font-size:6.9vh;
     
   }
   
@@ -109,6 +109,9 @@
     80% {opacity:1;}
     100% {opacity:0;}
   }
+  .firstword{
+    animation:showup 1s infinite;
+  }
   @keyframes slidein {
     0% {margin-left:-800px;}
     20% {margin-left:-800px; }
@@ -138,6 +141,7 @@
     justify-content:center;
     display:flex;
     font-family:'Roboto';
+    border-radius:0.3em;
   
     
   }
@@ -147,6 +151,7 @@
     box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
     transform: translateY(-0.40em);
     cursor:pointer;
+    border-radius:0,3em;
   }
 
   .mainbtn:first-of-type{
@@ -182,6 +187,8 @@
   flex-basis:40%;
   display:flex;
   padding-left:20px;
+  box-sizing: border-box;
+  border-radius: 0.1em;
 
 
 }
@@ -193,6 +200,8 @@
   box-shadow: 0.1 0.3em 1.2em 1em #8179f2;
   transform: translateY(-3.3em);
   cursor:pointer;
+  box-sizing: border-box;
+  border-radius: 0.2em;
   
   
   
@@ -219,38 +228,42 @@
   
 
 }
-.homecontent p button {
-  background:black;
-  color:white;
-  border-style:solid;
-  border-width:0.1rem;
-  font-family:'Roboto';
-  transition:all 1s ease;
+
+#parabtn{
+  background: #F27980;
+  color:#ffffff;
+  border:0.1em solid;
   padding: 1em 2em;
-  border-color:cyan;
-
-
-}
-#homecontent p button:hover{
-  border-color:white;
-  color:white;
-  box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
-  transform: translateY(-3.4em);
-  cursor:pointer;
-  transition:all 1s ease;
+  font-size: 1em;
+  transition: all 0.5s ease-in-out;
+  margin-right:60px;
+  font-family:'Roboto';
+  border:black;
+  box-sizing:border-box;
+  border-radius:0.2em;
 
 
 
 }
+#parabtn:hover{
+  background:#F27980;
+  color:black;
+  transition: all 0.5s ease-in-out;
+  font-family:'Roboto';
+  transform:translateY(-0.5em);
+  border: 0.1em solid;
+  border-color:#F27980;
+  box-sizing:border-box;
+  border-radius:0.6em;
 
-#pitle{
-  transition: all 1s ease;
+
 
 }
-#ptitle:hover{
-  transform: translateY(0.3em);
-  transition: all 1s ease;
+.ptitle{
+
 }
+
+
 
 
 
