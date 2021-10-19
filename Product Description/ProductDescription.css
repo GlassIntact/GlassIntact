@@ -22,7 +22,6 @@ body {
     font-family: "Montserrat-Regular";
 }
 
-
 .header {
     font-family: "Montserrat Bold";
     width: 100%;
@@ -74,9 +73,8 @@ body {
     margin: 0 auto;
     padding: 0 50px;
     border:none;
-    
-
 }
+
 .navbar__links{
     color: white;
     display: flex;
@@ -94,7 +92,7 @@ body {
     transform: translateY(-0.30em);
     cursor:pointer;
     transition: all 0.5s ease;
-      }
+}
     
 .navbar_logo {
     background-color:black;
