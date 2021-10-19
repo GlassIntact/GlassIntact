@@ -93,7 +93,8 @@ color: black;
 body{
 font-family: "Montserrat";
 font-size: 20px;
-background-color: whitesmoke;
+background-image: url();
+
 }
 
 div.body{
@@ -106,8 +107,8 @@ left: 75px;
 div.content{
     font-family: "Montserrat";
     background-color: white;
-    height: 250px;
-    width: 350px;
+    height: 500px;
+    width: 550px;
     border: 10px solid #f27980;
     margin: -50px
 }
@@ -115,78 +116,78 @@ div.content{
 div.image{
 
     border: 5px solid #f27980;
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 300px;
 }
 
 div#meekyle{
     position: absolute;
     left:100px;
-    top: 200px;
+    top: 300px;
 
 }
 div#samuel{
     position: absolute;
-    left:550px;
-    top: 200px;
+    left:800px;
+    top: 300px;
 }
 
 div#darshan{
     position: absolute;
-    left:1000px;
-    top: 200px;
+    left:100px;
+    top: 1500px;
 }
 
 div#andre{
     position: absolute;
     left:100px;
-    top: 600px;
+    top: 900px;
 }
 
 div#kristen{
     position: absolute;
-    left:550px;
-    top: 600px;
+    left:800px;
+    top: 900px;
 }
 
 div#nodshley{
     position: absolute;
-    left:1000px;
-    top: 600px;
+    left:800px;
+    top: 1500px;
 }
 
 div#image1{
     position: absolute;
-    left:300px;
-    top:300px
+    left:1100px;
+    top:550px
 }
 
 div#image2{
     position: absolute;
-    left:750px;
-    top:300px
+    left:500px;
+    top:800px
 }
 
 div#image3{
     position: absolute;
-    left:1200px;
-    top:300px
+    left:500px;
+    top:450px
 }
 
 div#image4{
     position: absolute;
-    left:750px;
-    top: 700px
+    left:500px;
+    top: 450px
 }
 
 div#image5{
     position: absolute;
-    left:300px;
-    top:700px
+    left:500px;
+    top:450px
 }
 
 div#image6{
     position: absolute;
-    left:1200px;
-    top:700px
+    left:500px;
+    top:450px
 }
