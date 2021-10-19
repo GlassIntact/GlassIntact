@@ -9,10 +9,11 @@
 }
 
 html{
-    background-image: url("Graphics/scotch_full.jpg");
+    background-image: url("Graphics/table-cocktail-glass-bar(1).jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
+    background-attachment: fixed;
     background-color: #2d2928;
     height: 100%;
 }
