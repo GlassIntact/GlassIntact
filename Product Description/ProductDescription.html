@@ -4,10 +4,12 @@
         <title>Product Description</title>
         <link rel="stylesheet" href="ProductDescription.css">
         <link rel="icon" href="Graphics/logo.png">
+        <meta charset="utf-8">
     </head>
 
     <body>
 
+        <!-- Text on Intro screen -->
         <div class = "intro">
             <h1 class = "logo-header">
                 <span class="logo">Product</span>
@@ -27,6 +29,39 @@
             </div>
         </nav>
 
+        <!-- Carousel -->
+        <div class = "carousel">
+            <div class = "carousel-images">
+                <!-- radio buttons -->
+                <input type = "radio" name = "radio-button" id = "radio1">
+                <input type = "radio" name = "radio-button" id = "radio2">
+                <input type = "radio" name = "radio-button" id = "radio3">
+                <!-- images -->
+                <div class = "img1">
+                    <img src = "Graphics/cheers.jpg" />
+                </div>
+                <div class = "img2">
+                    <img src = "Graphics/1st cups.jpg" />
+                </div>
+                <div class = "img3">
+                    <img src = "Graphics/2nd cups.jpg"/>
+                </div>
+                <!-- auto change images -->
+                <div class = "auto-change">
+                    <div class = "auto-button1"></div>
+                    <div class = "auto-button2"></div>
+                    <div class = "auto-button3"></div>
+                </div>
+            </div>
+            <!-- -->
+            <div class = "navigation-manual">
+                    <label for ="radio1" class = "manual-button"></label>
+                    <label for ="radio2" class = "manual-button"></label>
+                    <label for ="radio3" class = "manual-button"></label>
+            </div>
+        </div>
+
+        <!-- Get the JSS -->
         <script src = "ProductDescription.js"></script>
 
     </body>
