@@ -4,7 +4,6 @@
         <title>Product Description</title>
         <link rel="stylesheet" href="ProductDescription.css">
         <link rel="icon" href="Graphics/logo.png">
-        <meta charset="utf-8">
     </head>
 
     <body>
@@ -12,8 +11,8 @@
         <!-- Text on Intro screen -->
         <div class = "intro">
             <h1 class = "logo-header">
-                <span class="logo">Product</span>
-                <span class="logo">Description</span>
+                <span class="logo">PRODUCT</span>
+                <span class="logo">DESCRIPTION</span>
             </h1>
         </div>
 
@@ -31,41 +30,38 @@
 
         <!-- Carousel -->
         <div class = "carousel">
-            <div class = "carousel-images">
+            <div class = "slides">
                 <!-- radio buttons -->
-                <input type = "radio" name = "radio-button" id = "radio1">
-                <input type = "radio" name = "radio-button" id = "radio2">
-                <input type = "radio" name = "radio-button" id = "radio3">
+                <input type = "radio" name ="r" id = "rdb1" checked>
+                <input type = "radio" name ="r" id = "rdb2">
+                <input type = "radio" name ="r" id = "rdb3">
                 <!-- images -->
-                <div class = "img1">
-                    <img src = "Graphics/cheers.jpg" />
+                <div class = "image img1">
+                    <img src = "Graphics/cheers.jpg" alt = ""/>
                 </div>
-                <div class = "img2">
-                    <img src = "Graphics/1st cups.jpg" />
+                <div class = "image">
+                    <img src = "Graphics/1st cups.jpg" alt = ""/>
                 </div>
-                <div class = "img3">
-                    <img src = "Graphics/2nd cups.jpg"/>
-                </div>
-                <!-- auto change images -->
-                <div class = "auto-change">
-                    <div class = "auto-button1"></div>
-                    <div class = "auto-button2"></div>
-                    <div class = "auto-button3"></div>
+                <div class = "image">
+                    <img src = "Graphics/2nd cups.jpg" alt = ""/>
                 </div>
             </div>
-            <!-- -->
-            <div class = "navigation-manual">
-                    <label for ="radio1" class = "manual-button"></label>
-                    <label for ="radio2" class = "manual-button"></label>
-                    <label for ="radio3" class = "manual-button"></label>
+            <!-- navigation -->
+            <div class = "navigation">
+                <label for = "rdb1" class = "bar"></label>
+                <label for = "rdb2" class = "bar"></label>
+                <label for = "rdb3" class = "bar"></label>
             </div>
         </div>
 
-        <!-- Get the JSS -->
+        <div class = "header">
+            <h1 align=right>Our Product</h1>
+        </div>
+
+        <!-- JSS Code -->
         <script src = "ProductDescription.js"></script>
-
     </body>
-
+    
     <!-- Footer -->
     <div class = "footer">
         <p>@2021 GlassIntact. All Rights Reserved</p>

@@ -4,6 +4,7 @@ let logo = document.querySelector(".logo-header");
 let logoSpan = document.querySelectorAll(".logo");
 const idx = 0
 
+
 /* Intro screen */
 window.addEventListener("DOMContentLoaded", ()=>{
     setTimeout(()=>{
@@ -24,5 +25,3 @@ window.addEventListener("DOMContentLoaded", ()=>{
         }, 2300);
     })
 })
-
-/* Carousel */

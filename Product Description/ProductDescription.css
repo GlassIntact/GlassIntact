@@ -1,3 +1,10 @@
+/* COLOURS
+    white: #ffffff
+    black: #1d1d1d
+    pink: #fcafae
+    yellow: #fdfd96
+*/
+
 @font-face {
     font-family: "Montserrat";
     src:url("Montserrat-Regular.ttf")
@@ -126,7 +133,75 @@ header{
 }
 
 /* Carousel */
+.header {
+    font-family: "Montserrat";
+    text-align: center;
+    color: black;
+}
 
+.carousel {
+    width: 450px;
+    height: 450px;
+    border-radius: 5px;
+    overflow: hidden;
+    transform: translate(10%, 10%);
+}
+
+
+.navigation{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.bar {
+    width: 60px;
+    height: 10px;
+    border: 2px solid white;
+    border-radius: 3px;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.5s
+}
+
+.bar:hover {
+    background-color: #fcafae;
+}
+
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides {
+    width: 500%;
+    height: 100%;
+    display: flex;
+}
+
+.image {
+    width: 20%;
+    transition: 0.5s;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+}
+
+#rdb1:checked ~ .img1{
+    margin-left: 0;
+}
+
+#rdb2:checked ~ .img1{
+    margin-left:  -20%;
+}
+
+#rdb3:checked ~ .img1{
+    margin-left: -40%;
+}
 
 /* Footer */
 .footer {
