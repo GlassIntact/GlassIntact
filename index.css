@@ -272,7 +272,17 @@
   float:left;
   width:fit-content;
 
+  margin-bottom: 0.1em;
 
+
+}
+#survey {
+  box-sizing: border-box;
+  justify-content: center;
+  margin-left:2.1;
+  margin-top:0%;
+  color:#F27980;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .percentage h1{
@@ -286,16 +296,27 @@
   
   
 }
+.percentage h1 p{
+  font-size:0.1em;
+  transition: none;
+}
 .percentage h1:hover{
   transform:scale(1.2);
 
 
 }
 .research1{
-  margin-top:23.5em;
+  margin-top:18em;
   margin-right:19em;
   float:right;
   width:23em;
+  margin-left:10em;
+  margin-bottom:5em;
+  transition:all 1s ease-in-out;
+  
+}
+.research1:hover{
+  transform:scaleX(1.1);
 }
 .research1 p{
   font-family:'Roboto';
@@ -345,25 +366,23 @@
 }
 .ptitle:hover{
   color:black;
-  transform:scaleX(1.5);
+  transform:scaleX(1.1);
   transform:scaleY(2.2);
 
 }
 .ptitle:hover::after{
   transform:scaleX(1);
   transform-origin:left;
-  transform:scaleY(1.5)
+  transform:scaleZ(2);
 }
 
 
 
 
+#pie{
+  
 
-
-
-
-
-
+}
 
 
 
