@@ -22,9 +22,9 @@
         <!-- Nav Bar -->
         <nav class="navbar">
             <div class="navbar_container">
-                <a class = "space"></a>
+                <a class="space"></a>
                 <a href="../index.html"class="navbar_logo">HOME </a>
-                <a class = "space"></a>
+                <a class="space"></a>
                 <a href="../Our Mission/OurMission.html"class="navbar__links" id="about_page">Our Mission</a>
                 <a href="../Testimon/Testimonials.html"class="navbar__links"id="testimonials">Testimonials</a>
                 <a href="../Product Description/ProductDescription.html"class="navbar__links"id="product">Product Description</a>
@@ -35,61 +35,50 @@
 
         <!-- Columns -->
         <section>
-            <table class = "column reveal">
-                <tr>
-                    <td>
-                        <!-- carousel -->
-                        <div class = "carousel">
-                            <div class = "slides">
-                                <!-- radio buttons -->
-                                <input type = "radio" name ="r" id = "rdb1" checked>
-                                <input type = "radio" name ="r" id = "rdb2">
-                                <input type = "radio" name ="r" id = "rdb3">
-                                 <!-- images -->
-                                <div class = "image img1">
-                                    <img src = "Graphics/cheers.jpg" alt = ""/>
-                                </div>
-                                 <div class = "image">
-                                    <img src = "Graphics/1st cups.jpg" alt = ""/>
-                                 </div>
-                                 <div class = "image">
-                                    <img src = "Graphics/2nd cups.jpg" alt = ""/>
-                                 </div>
-                                <!-- navigation -->
-                                <div class = "navigation">
-                                    <label for = "rdb1" class = "bar"></label>
-                                    <label for = "rdb2" class = "bar"></label>
-                                    <label for = "rdb3" class = "bar"></label>
-                                </div>
+            <div class = "row">
+                <div class = "column">
+                    <!-- carousel -->
+                    <div class = "carousel">
+                        <div class = "slides">
+                            <!-- radio buttons -->
+                            <input type = "radio" name ="r" id = "rdb1" checked>
+                            <input type = "radio" name ="r" id = "rdb2">
+                            <input type = "radio" name ="r" id = "rdb3">
+                             <!-- images -->
+                            <div class = "image img1">
+                                <img src = "Graphics/cheers.jpg" alt = ""/>
+                            </div>
+                             <div class = "image">
+                                <img src = "Graphics/1st cups.jpg" alt = ""/>
+                             </div>
+                             <div class = "image">
+                                <img src = "Graphics/2nd cups.jpg" alt = ""/>
+                             </div>
+                            <!-- navigation -->
+                            <div class = "navigation">
+                                <label for = "rdb1" class = "bar"></label>
+                                <label for = "rdb2" class = "bar"></label>
+                                <label for = "rdb3" class = "bar"></label>
                             </div>
                         </div>
-                    </td>
-                    <td>
-                        <!-- text description -->
-                        <div class = "text">
-                            <div class = "header">
-                                <h1>Our Product</h1>
-                            </div>
-                            <div class = "description">
-                                <p>Here at GlassIntact we make premium cups<br>
-                                 that detect if a drink has been tampered with.</p>
-                                <p>Using high-tech LED lights,<br>
-                                users will be alerted with a red light<br>
-                                if their drink is spiked!</p>
-                            </div>
-                        </div>
-                    </td>
-                </tr>
-            </table>
-        </section>
-        
-        <section>
-            <div class = "more-info reveal">
-                <div class = "header" id = "buy">
-                    <h1>Buy From GlassIntact</h1>
+                    </div>
                 </div>
-                <div class = "description" id ="buy">
-                    <h4><i>and sip safely~</i></h4>
+                <div class = "column">
+                    <!-- text description -->
+                    <div class = "text">
+                        <div class = "header">
+                            <h1>Our Product</h1>
+                        </div>
+                        <div class = "description">
+                            <p>Here at GlassIntact we make premium cups
+                             that detect if a drink has been tampered with.</p>
+                            <p>Using high-tech LED lights,
+                            users will be alerted with a red light
+                            if their drink is spiked!</p>
+                            <p> We currently have two designs to choose from<br>
+                            and more to come.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -99,25 +88,41 @@
                 <!-- User Rating (Stars)-->
                 <div class = "user-rating">
                    <span class = "heading"><i>User Rating:</i></span>
-                   <span class="fa fa-star fa-3x checked"></span>
-                   <span class="fa fa-star fa-3x checked"></span>
-                   <span class="fa fa-star fa-3x checked"></span>
-                   <span class="fa fa-star fa-3x checked"></span>
-                   <span class="fa fa-star fa-3x checked"></span>
+                   <span class="fa fa-star fa-3x checked" id = "star"></span>
+                   <span class="fa fa-star fa-3x checked" id = "star"></span>
+                   <span class="fa fa-star fa-3x checked" id = "star"></span>
+                   <span class="fa fa-star fa-3x checked" id = "star"></span>
+                   <span class="fa fa-star fa-3x checked" id = "star"></span>
                </div>
                <div class = "item">
                    <img src = "Graphics/sensor in 2nd cup.jpg" alt = ""/>
                    <p>Embedded within each cup is a sensor made to detect <br>
                    common drugs used to spike drinks.</p>
                </div>
-               <div class = "button">
-                   <button class = "buy-option">SOLD OUT</button>
-                </div>
            </div>
         </section>
+
+        <section>
+            <div class = "more-info reveal">
+                <div class = "header" id = "buy">
+                    <h1><i>Buy From GlassIntact</i></h1>
+                </div>
+                <div class = "description" id ="buy">
+                    <h3><i>and sip safely~</i></h3>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class = "button reveal">
+                <button class = "buy-option">SOLD OUT</button>
+                <p class = "description">We are currently restocking.<br>Thank you.</p>
+            </div>
+        </section>
+
         <!-- Footer -->
         <div class = "footer">
-            <p>@2021 GlassIntact. All Rights Reserved</p>
+            <p>Copyright © 2021 GlassIntact. All Rights Reserved</p>
         </div>
         
         <!-- JSS Code -->

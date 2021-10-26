@@ -15,11 +15,10 @@
     src:url("Montserrat-Bold.ttf")
 }
 
-
+/* General */
 body {
     font-family: "Montserrat";
     min-height: 100vh;
-    background-color:black;
 }
 
 section{
@@ -89,6 +88,7 @@ header{
 }
 
 /* Nav Bar */
+/* Nav Bar */
 .navbar {
     background:#000000;
     height: 80px;
@@ -146,6 +146,7 @@ header{
     align-items: center;
     cursor: pointer;
     text-decoration: none;
+    font-size: 2em;
     font-family: "Montserrat";
 }
 
@@ -159,30 +160,28 @@ header{
 }
 
 /* Columns */
+* {
+    box-sizing: border-box;
+}
+  
 .column {
-    width: 100%;
-    padding: 20px;
-    margin: 0 auto;
-}
-
-.column tr {
-    width: 460px;
-    height: 470px;
-}
-
-.column td{
-    width: 460px;
-    height: 470px;
+    float: left;
+    width: 50%;
     padding: 10px;
-    text-align: center;
+}
+
+@media screen and (max-width: 1060px) {
+    .column {
+      width: 100%;
+    }
 }
 
 /* Carousel */
 .carousel {
     margin: auto;
-    width: 450px;
-    height: 450px;
-    border-radius: 5px;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
     overflow: hidden;
     position:  relative;
 }
@@ -196,10 +195,10 @@ header{
 }
 
 .bar {
-    width: 60px;
-    height: 10px;
+    width: 90px;
+    height: 12px;
     border: 2px solid white;
-    border-radius: 5%;
+    border-radius: 5px;
     margin: 10px;
     cursor: pointer;
     transition: 0.5s
@@ -244,12 +243,15 @@ input[name="r"]{
 
 /* Product Description Paragraphs */
 .text{
-    padding: 70px;
+    padding: 50px;
     border-radius: 5%;
     background-color: #fdfd96;
+    box-shadow: 5px 5px 5px #fcafae;
 }
+
 .header {
     text-align: center;
+    font-size: 30px;
     text-decoration: underline;
 }
 
@@ -260,14 +262,16 @@ input[name="r"]{
 }
 
 .description {
+    font-size: 20px;
     text-align: center;
 }
 
 /* More Information Tab */
 .more-info{
     margin: auto;
-    padding: 200px;
-    border-radius: 10px;
+    width: 70%;
+    padding: 150px;
+    border-radius: 20px;
     background-color: #fdfd96;
     font-size: 30px;
 }
@@ -278,10 +282,17 @@ input[name="r"]{
     font-size: 30px;
     margin-right: 25px;
 }
+
 .user-rating{
     padding: 20px;
-    width: 95%;
+    width: 100%;
     text-align: center;
+}
+
+span#star:hover{
+    transform: translateY(-5px);
+    transition: 0.5s;
+    color: #fdfd96;
 }
 
 .checked{
@@ -291,8 +302,8 @@ input[name="r"]{
 .item{
     text-align: center;
     padding: 10px;
-    color: white;
 }
+
 .item img{
     border-radius: 10px;
 }
@@ -303,11 +314,16 @@ input[name="r"]{
 
 .button button{
     font-family: "Montserrat Bold";
+    opacity: 60%;
     color: rgb(135, 132, 132);
-    border:none;
-    padding: 50px;
+    border-width: 10px;
+    border-color: #676763;
+    border-radius: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     font-size: 50px;
-    border-radius: 5%;
 }
 
 .buy-option:hover{
