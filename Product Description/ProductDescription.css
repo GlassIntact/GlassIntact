@@ -31,7 +31,7 @@ header{
 
 .intro {
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     left: 0;
     top: 0;
     width: 100%;
@@ -77,11 +77,11 @@ header{
     font-size: 1rem;
     position: sticky;
     top: 0;
-    z-index: 999;
+    z-index: 1;
 }
 
 .navbar_container{
-    display:flex;
+    display: flex;
     justify-content: space-between;
     height: 80px;
     z-index: 1;
@@ -110,16 +110,21 @@ header{
     cursor: pointer;
     transition: all 0.5s ease;
 }
-    
+
+.navbar__links#product {
+    text-decoration: underline 2px #fcafae;
+}
+
+.space {
+    padding: 30px;
+}
+
 .navbar_logo {
-    background-color:black;
     color:#fcafae;
     display: flex;
     align-items: center;
     cursor: pointer;
     text-decoration: none;
-    font-size: 2ems;
-    padding-right: 250px;
     font-family: "Montserrat";
 }
 
@@ -132,21 +137,33 @@ header{
     transition:all 1s ease;
 }
 
-/* Carousel */
-.header {
-    font-family: "Montserrat";
-    text-align: center;
-    color: black;
+/* Columns */
+* {
+    box-sizing: border-box;
 }
 
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    padding: 10px;
+    width: 460px;
+    height: 480px;
+}
+
+/* Carousel */
 .carousel {
     width: 450px;
     height: 450px;
     border-radius: 5px;
     overflow: hidden;
-    transform: translate(10%, 10%);
+    position:  absolute;
+    left: 25%;
+    right: 25%;
+    transform: translate(-50%, 10px);
 }
-
 
 .navigation{
     position: absolute;
@@ -167,7 +184,7 @@ header{
 }
 
 .bar:hover {
-    background-color: #fcafae;
+    background-color: #fdfd96;
 }
 
 input[name="r"]{
@@ -203,9 +220,18 @@ input[name="r"]{
     margin-left: -40%;
 }
 
+/* Product Description Paragraphs */
+.header {
+    text-align: center;
+    color: black;
+}
+
+.description {
+    text-align: center;
+}
+
 /* Footer */
 .footer {
-    font-family: "Montserrat";
     text-align:center;
     font-size: 13px;
 }

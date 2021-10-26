@@ -19,7 +19,9 @@
         <!-- Nav Bar -->
         <nav class="navbar">
             <div class="navbar_container">
+                <a class = "space"></a>
                 <a href="../index.html"class="navbar_logo">HOME </a>
+                <a class = "space"></a>
                 <a href="../Our Mission/OurMission.html"class="navbar__links" id="about_page">Our Mission</a>
                 <a href="../Testimon/Testimonials.html"class="navbar__links"id="testimonials">Testimonials</a>
                 <a href="../Product Description/ProductDescription.html"class="navbar__links"id="product">Product Description</a>
@@ -28,34 +30,44 @@
             </div>
         </nav>
 
-        <!-- Carousel -->
-        <div class = "carousel">
-            <div class = "slides">
-                <!-- radio buttons -->
-                <input type = "radio" name ="r" id = "rdb1" checked>
-                <input type = "radio" name ="r" id = "rdb2">
-                <input type = "radio" name ="r" id = "rdb3">
-                <!-- images -->
-                <div class = "image img1">
-                    <img src = "Graphics/cheers.jpg" alt = ""/>
-                </div>
-                <div class = "image">
-                    <img src = "Graphics/1st cups.jpg" alt = ""/>
-                </div>
-                <div class = "image">
-                    <img src = "Graphics/2nd cups.jpg" alt = ""/>
+        <!-- Columns -->
+        <div class = "row">
+             <!-- carousel -->
+            <div class = "column">
+                <div class = "carousel">
+                    <div class = "slides">
+                        <!-- radio buttons -->
+                        <input type = "radio" name ="r" id = "rdb1" checked>
+                        <input type = "radio" name ="r" id = "rdb2">
+                        <input type = "radio" name ="r" id = "rdb3">
+                        <!-- images -->
+                        <div class = "image img1">
+                            <img src = "Graphics/cheers.jpg" alt = ""/>
+                        </div>
+                        <div class = "image">
+                            <img src = "Graphics/1st cups.jpg" alt = ""/>
+                        </div>
+                        <div class = "image">
+                            <img src = "Graphics/2nd cups.jpg" alt = ""/>
+                        </div>
+                    </div>
+                    <!-- navigation -->
+                    <div class = "navigation">
+                        <label for = "rdb1" class = "bar"></label>
+                        <label for = "rdb2" class = "bar"></label>
+                        <label for = "rdb3" class = "bar"></label>
+                    </div>
                 </div>
             </div>
-            <!-- navigation -->
-            <div class = "navigation">
-                <label for = "rdb1" class = "bar"></label>
-                <label for = "rdb2" class = "bar"></label>
-                <label for = "rdb3" class = "bar"></label>
+            <!-- text description -->
+            <div class = "column">
+                <div class = "header">
+                    <h1>Our Product</h1>
+                </div>
+                <div class = "description">
+                    <p>Here at GlassIntact we make premium cups</p>
+                </div>
             </div>
-        </div>
-
-        <div class = "header">
-            <h1 align=right>Our Product</h1>
         </div>
 
         <!-- JSS Code -->

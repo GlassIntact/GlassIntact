@@ -2,8 +2,7 @@
 let intro = document.querySelector(".intro");
 let logo = document.querySelector(".logo-header");
 let logoSpan = document.querySelectorAll(".logo");
-const idx = 0
-
+const idx = 0;
 
 /* Intro screen */
 window.addEventListener("DOMContentLoaded", ()=>{
