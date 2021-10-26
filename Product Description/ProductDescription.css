@@ -18,6 +18,27 @@
 
 body {
     font-family: "Montserrat";
+    min-height: 100vh;
+    background-color:black;
+}
+
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reveal {
+    position: relative;
+    transform: transitionY (150px);
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.reveal.active {
+    transform: transitionY (0px);
+    opacity: 1;
 }
 
 /* Splash screen */
@@ -138,31 +159,32 @@ header{
 }
 
 /* Columns */
-* {
-    box-sizing: border-box;
-}
-
-.row {
-    display: flex;
-}
-
 .column {
-    flex: 50%;
-    padding: 10px;
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.column tr {
     width: 460px;
-    height: 480px;
+    height: 470px;
+}
+
+.column td{
+    width: 460px;
+    height: 470px;
+    padding: 10px;
+    text-align: center;
 }
 
 /* Carousel */
 .carousel {
+    margin: auto;
     width: 450px;
     height: 450px;
     border-radius: 5px;
     overflow: hidden;
-    position:  absolute;
-    left: 25%;
-    right: 25%;
-    transform: translate(-50%, 10px);
+    position:  relative;
 }
 
 .navigation{
@@ -177,7 +199,7 @@ header{
     width: 60px;
     height: 10px;
     border: 2px solid white;
-    border-radius: 3px;
+    border-radius: 5%;
     margin: 10px;
     cursor: pointer;
     transition: 0.5s
@@ -221,17 +243,82 @@ input[name="r"]{
 }
 
 /* Product Description Paragraphs */
+.text{
+    padding: 70px;
+    border-radius: 5%;
+    background-color: #fdfd96;
+}
 .header {
     text-align: center;
-    color: black;
+    text-decoration: underline;
+}
+
+.header:hover{
+    transform: translateY(-10px);
+    transition: 0.8s;
+    cursor: default;
 }
 
 .description {
     text-align: center;
 }
 
+/* More Information Tab */
+.more-info{
+    margin: auto;
+    padding: 200px;
+    border-radius: 10px;
+    background-color: #fdfd96;
+    font-size: 30px;
+}
+/* User Rating */
+.heading{
+    font-family: "Montserrat";
+    color: #fcafae;
+    font-size: 30px;
+    margin-right: 25px;
+}
+.user-rating{
+    padding: 20px;
+    width: 95%;
+    text-align: center;
+}
+
+.checked{
+    color: #fcafae;
+}
+
+.item{
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+.item img{
+    border-radius: 10px;
+}
+
+.button {
+    text-align: center;
+}
+
+.button button{
+    font-family: "Montserrat Bold";
+    color: rgb(135, 132, 132);
+    border:none;
+    padding: 50px;
+    font-size: 50px;
+    border-radius: 5%;
+}
+
+.buy-option:hover{
+    box-shadow: 3px 3px 5px #fcafae;
+    transition: 200ms;
+    cursor: no-drop;
+}
+
 /* Footer */
 .footer {
+    color: #fcafae;
     text-align:center;
     font-size: 13px;
 }
