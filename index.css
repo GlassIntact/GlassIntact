@@ -90,6 +90,9 @@ html{
   .introductory-video{
     display: block;
     margin: 0 auto;
+    width: 90%;
+    height: 450px;
+    
   }
   
   .main{
