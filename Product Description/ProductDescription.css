@@ -19,6 +19,11 @@
     box-sizing: border-box;
 }
 
+/* General */
+body {
+    font-family: "Montserrat";
+}
+
 /* Scroll Bar */
 ::-webkit-scrollbar {
     width:10px;
@@ -26,8 +31,7 @@
 }
 
 ::-webkit-scrollbar-track{
-    border-radius: 10px;
-    box-shadow: inset 0 0 10px rgba(0,0,0,0.25);
+    box-shadow: inset 0 0 10px white;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -37,12 +41,6 @@
 
 ::-webkit-scrollbar-thumb:hover{
     background-color: #ff9b99;
-}
-
-/* General */
-body {
-    font-family: "Montserrat";
-    min-height: 100vh;
 }
 
 section{
@@ -259,6 +257,41 @@ input[name="r"]{
     margin-left: -40%;
 }
 
+/* User Rating */
+.heading{
+    font-family: "Montserrat";
+    color: #fcafae;
+    font-size: 30px;
+}
+
+.user-rating{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 100%;
+    text-align: center;
+}
+
+span#star:hover{
+    transform: translateY(-5px);
+    transition: 0.5s;
+    color: #fdfd96;
+}
+
+.checked{
+    color: #fcafae;
+}
+
+/* Sensor Image */
+.item{
+    text-align: center;
+    padding: 10px;
+}
+
+.item img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
 /* Product Description Paragraphs */
 .text{
     max-width:100%;
@@ -282,11 +315,19 @@ input[name="r"]{
     cursor: default;
 }
 
+.header#first:hover{
+    cursor: pointer;
+}
+
 .description {
     max-width: 100%;
     max-height: 100%;
     font-size: 20px;
     text-align: center;
+}
+
+.description#second{
+    display: none;
 }
 
 /* More Information Tab */
@@ -298,40 +339,7 @@ input[name="r"]{
     background-color: #fdfd96;
     font-size: 30px;
 }
-/* User Rating */
-.heading{
-    font-family: "Montserrat";
-    color: #fcafae;
-    font-size: 30px;
-    margin-right: 25px;
-}
 
-.user-rating{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    max-width: 100%;
-    text-align: center;
-}
-
-span#star:hover{
-    transform: translateY(-5px);
-    transition: 0.5s;
-    color: #fdfd96;
-}
-
-.checked{
-    color: #fcafae;
-}
-
-.item{
-    text-align: center;
-    padding: 10px;
-}
-
-.item img{
-    max-width: 100%;
-    border-radius: 10px;
-}
 
 .button {
     text-align: center;

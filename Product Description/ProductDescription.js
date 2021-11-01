@@ -1,3 +1,18 @@
+/* Fade In First Row */
+$(document).ready(function(){
+    $(".row").hide();
+    $(".row").fadeIn(3650);
+})
+
+/* Click to Reveal More Info */
+$(document).ready(function(){
+    $("#first").click(function(){
+        $("#clicked").remove();
+        $("#second").slideDown(1000);
+    });
+});
+
+
 // intro var
 let intro = document.querySelector(".intro");
 let logo = document.querySelector(".logo-header");
