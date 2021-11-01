@@ -8,6 +8,9 @@
     src:url("Montserrat-Bold.ttf");
 }
 
+header {
+}
+
 .navbar {
     background:#000000;
     height: 80px;
@@ -77,8 +80,27 @@
 
 .main-content{
     margin-top: 40px;
-    border: 2px solid #f27980;
-    background-color: whitesmoke;
+    
+    /*border: 2px solid #f27980;*/
+    /*background-color: whitesmoke;*/
+}
+
+.meetTheTeam{
+    color:#f27980;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    
+}
+
+.topParagraph{
+    font-family: "Montserrat";
+    font-style: italic;
+    font-size: 16px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: -20px;
+    color:grey;
+    text-align: center;
 }
 
 h1 {
@@ -86,8 +108,8 @@ font-family: "Montserrat Bold";
 position: center;
 margin-top: 30px;
 font-size: 50px;
-font-style: oblique;
-color: black;
+/*font-style: oblique;*/
+color:#f27980
 }
 
 body{
@@ -164,30 +186,31 @@ div#image1{
 
 div#image2{
     position: absolute;
-    left:500px;
+    left:400px;
     top:800px
 }
 
 div#image3{
     position: absolute;
-    left:500px;
+    left:400px;
     top:450px
+    
 }
 
 div#image4{
     position: absolute;
-    left:500px;
+    left:400px;
     top: 450px
 }
 
 div#image5{
     position: absolute;
-    left:500px;
+    left:400px;
     top:450px
 }
 
 div#image6{
     position: absolute;
-    left:500px;
+    left:400px;
     top:450px
 }
