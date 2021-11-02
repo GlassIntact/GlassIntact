@@ -99,6 +99,7 @@ header {
     margin-left: 500px;
     margin-right: 500px;
     margin-top: -20px;
+    margin-bottom: 50px;
     color:grey;
     text-align: center;
 }
@@ -117,6 +118,91 @@ font-family: "Montserrat";
 font-size: 20px;
 background-image: url();
 
+}
+
+
+.imageMeekyle{
+    margin-left: 50px;
+    position: absolute;
+    top: 275px;
+
+}
+
+.trueMeekyle{
+    /* border: 2px solid black;*/
+     margin-left: 375px;
+     margin-right: 50px;
+     margin-bottom: 150px;
+ }
+ 
+ .imageSamuel{
+     margin-left: 50px;
+     position: absolute;
+     top: 575px;
+ 
+ }
+
+ .trueSamuel{
+    /* border: 2px solid black;*/
+     margin-left: 375px;
+     margin-right: 50px;
+     margin-bottom: 150px;
+ }
+
+ .imageDarshan{
+    margin-left: 50px;
+    position: absolute;
+    top: 875px;
+
+}
+
+.trueDarshan{
+   /* border: 2px solid black;*/
+    margin-left: 375px;
+    margin-right: 50px;
+    margin-bottom: 150px;
+}
+
+.imageKristen{
+    margin-left: 50px;
+    position: absolute;
+    top: 1175px;
+
+}
+
+.trueKristen{
+   /* border: 2px solid black;*/
+    margin-left: 375px;
+    margin-right: 50px;
+    margin-bottom: 150px;
+}
+
+.imageAndre{
+    margin-left: 50px;
+    position: absolute;
+    top: 1475px;
+
+}
+
+.trueAndre{
+   /* border: 2px solid black;*/
+    margin-left: 375px;
+    margin-right: 50px;
+    margin-bottom: 150px;
+}
+
+.imageNodshley{
+    margin-left: 50px;
+    position: absolute;
+    top: 1775px;
+
+}
+
+.trueNodshley{
+   /* border: 2px solid black;*/
+    margin-left: 375px;
+    margin-right: 50px;
+    margin-bottom: 150px;
 }
 
 div.body{
