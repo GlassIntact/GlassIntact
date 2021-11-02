@@ -337,6 +337,7 @@ span#star:hover{
     padding: 20px;
     border-radius: 20px;
     background-color: #fdfd96;
+    box-shadow: 5px 5px 5px #fcafae;
     font-size: 30px;
 }
 
