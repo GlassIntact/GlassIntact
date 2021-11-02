@@ -89,6 +89,7 @@ header {
     color:#f27980;
     text-decoration: underline;
     text-decoration-thickness: 2px;
+    margin-bottom: 50px;
     
 }
 
@@ -99,7 +100,7 @@ header {
     margin-left: 500px;
     margin-right: 500px;
     margin-top: -20px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     color:grey;
     text-align: center;
 }
@@ -124,7 +125,7 @@ background-image: url();
 .imageMeekyle{
     margin-left: 50px;
     position: absolute;
-    top: 275px;
+    top: 325px;
 
 }
 
@@ -132,13 +133,13 @@ background-image: url();
     /* border: 2px solid black;*/
      margin-left: 375px;
      margin-right: 50px;
-     margin-bottom: 150px;
+     margin-bottom: 125px;
  }
  
  .imageSamuel{
      margin-left: 50px;
      position: absolute;
-     top: 575px;
+     top: 625px;
  
  }
 
@@ -146,13 +147,13 @@ background-image: url();
     /* border: 2px solid black;*/
      margin-left: 375px;
      margin-right: 50px;
-     margin-bottom: 150px;
+     margin-bottom: 125px;
  }
 
  .imageDarshan{
     margin-left: 50px;
     position: absolute;
-    top: 875px;
+    top: 925px;
 
 }
 
@@ -166,7 +167,7 @@ background-image: url();
 .imageKristen{
     margin-left: 50px;
     position: absolute;
-    top: 1175px;
+    top: 1225px;
 
 }
 
@@ -180,7 +181,7 @@ background-image: url();
 .imageAndre{
     margin-left: 50px;
     position: absolute;
-    top: 1475px;
+    top: 1525px;
 
 }
 
@@ -194,7 +195,7 @@ background-image: url();
 .imageNodshley{
     margin-left: 50px;
     position: absolute;
-    top: 1775px;
+    top: 1825px;
 
 }
 
