@@ -86,13 +86,31 @@ header {
 }
 
 .meetTheTeam{
-    color:#f27980;
+    /*color:#f27980;
     text-decoration: underline;
     text-decoration-thickness: 2px;
-    margin-bottom: 50px;
+    margin-bottom: 50px;*/
+    font-family: "Montserrat";
+    font-size: 16px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 20px;
+    /*margin-bottom: -50px;*/
+    color:grey;
+    text-align: center;
+    
     
 }
 
+h3 {
+    color: #f27980;
+}
+
+p1 {
+    color: white;
+}
+
+/*
 .topParagraph{
     font-family: "Montserrat";
     font-style: italic;
@@ -102,6 +120,18 @@ header {
     margin-top: -20px;
     margin-bottom: 100px;
     color:grey;
+    text-align: center;
+}
+*/
+p5 {
+    font-family: "Montserrat";
+    font-style: italic;
+    font-size: 16px;
+    margin-left: 500px;
+    margin-right: 500px;
+    position: relative;
+    bottom: 75px;
+    color:lightgrey;
     text-align: center;
 }
 
@@ -114,10 +144,23 @@ font-size: 50px;
 color:#f27980
 }
 
+h5 {
+    font-family: "Montserrat Bold";
+    position: center;
+    margin-top: 30px;
+    font-size: 50px;
+    /*font-style: oblique;*/
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    color:#f27980
+}
+
 body{
-font-family: "Montserrat";
-font-size: 20px;
-background-image: url();
+    font-family: "Montserrat";
+    font-size: 20px;
+    background-image: url("placeholderimg/citynight.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
 
 }
 
