@@ -85,20 +85,19 @@ header {
     /*background-color: whitesmoke;*/
 }
 
+.title{
+    text-align: center;
+}
+
 .meetTheTeam{
-    /*color:#f27980;
-    text-decoration: underline;
-    text-decoration-thickness: 2px;
-    margin-bottom: 50px;*/
+    text-align: center;
     font-family: "Montserrat";
     font-size: 16px;
-    margin-left: 500px;
-    margin-right: 500px;
-    margin-top: 20px;
-    /*margin-bottom: -50px;*/
+    position: relative;
+    left: 250px;
+    margin-bottom: 30px;
+    margin-top: 25px;
     color:grey;
-    text-align: center;
-    
     
 }
 
@@ -161,11 +160,31 @@ body{
     background-image: url("placeholderimg/citynight.jpg");
     background-size: auto;
     background-repeat: no-repeat;
+    background-size:cover;
 
 }
 
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+    opacity:0;
+  }
 
 .imageMeekyle{
+    margin-left: 50px;
+    position: absolute;
+    top: 325px;
+
+}
+
+.overMeekyle{
     margin-left: 50px;
     position: absolute;
     top: 325px;
@@ -176,7 +195,7 @@ body{
     /* border: 2px solid black;*/
      margin-left: 375px;
      margin-right: 50px;
-     margin-bottom: 125px;
+     margin-bottom: 100px;
  }
  
  .imageSamuel{
@@ -186,11 +205,17 @@ body{
  
  }
 
+ .overSamuel{
+    margin-left: 50px;
+    position: absolute;
+    top: 625px;
+ }
+
  .trueSamuel{
     /* border: 2px solid black;*/
      margin-left: 375px;
      margin-right: 50px;
-     margin-bottom: 125px;
+     margin-bottom: 110px;
  }
 
  .imageDarshan{
@@ -200,11 +225,17 @@ body{
 
 }
 
+.overDarshan{
+    margin-left: 50px;
+    position: absolute;
+    top: 925px;
+ }
+
 .trueDarshan{
    /* border: 2px solid black;*/
     margin-left: 375px;
     margin-right: 50px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .imageKristen{
@@ -214,11 +245,17 @@ body{
 
 }
 
+.overKristen{
+    margin-left: 50px;
+    position: absolute;
+    top: 1225px;
+ }
+
 .trueKristen{
    /* border: 2px solid black;*/
     margin-left: 375px;
     margin-right: 50px;
-    margin-bottom: 150px;
+    margin-bottom: 110px;
 }
 
 .imageAndre{
@@ -228,11 +265,17 @@ body{
 
 }
 
+.overAndre{
+    margin-left: 50px;
+    position: absolute;
+    top: 1525px;
+ }
+
 .trueAndre{
    /* border: 2px solid black;*/
     margin-left: 375px;
     margin-right: 50px;
-    margin-bottom: 135px;
+    margin-bottom: 125px;
 }
 
 .imageNodshley{
@@ -241,6 +284,12 @@ body{
     top: 1825px;
 
 }
+
+.overNodshley{
+    margin-left: 50px;
+    position: absolute;
+    top: 1825px;
+ }
 
 .trueNodshley{
    /* border: 2px solid black;*/
