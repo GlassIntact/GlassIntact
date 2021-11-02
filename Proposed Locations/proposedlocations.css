@@ -8,6 +8,10 @@
     font-family: "Montserrat Bold";
     src:url("Montserrat-Bold.ttf")
 }
+
+html{
+    overflow-y: scroll;
+}
 body{
     font-family: "Montserrat";
 }
@@ -62,7 +66,7 @@ body{
     align-items: center;
     cursor: pointer;
     text-decoration: none;
-    font-size: 2em;
+    font-size: 2ems;
     padding-right: 200px;
     font-family: "Montserrat";
 }
@@ -78,8 +82,6 @@ body{
 
 .main-content{
     margin-top: 40px;
-    border: 2px solid #f27980;
-    background-color: whitesmoke;
 }
 .header{
     width: 100%;
@@ -91,6 +93,9 @@ body{
     color: #f27980;
     text-decoration: underline;
     font-family: "Montserrat Bold";
+    font-size: 72px;
+    padding: 0;
+    display: inline;
 }
 
 .caption{
@@ -112,11 +117,20 @@ body{
 .map img{
     border: 5px solid #f27980;
 }
+.scroll-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 50px;
+    height: 50px;
+}
 
 .bars-info-table{
     border: none;
     width: 75%;
     margin: 0 auto;
+    opacity: 1;
 }
 
 .bars-info-table td{
@@ -128,4 +142,17 @@ body{
 .location{
     color: #f27980;
     font-family: "Montserrat Bold";
+}
+
+.bars-info img{
+    border: 3px solid #fcafae;
+}
+.thelaffimage{
+    width: 500px;
+    height: 300px;
+}
+
+.madisons{
+    width: 400px;
+    height: 300px;
 }

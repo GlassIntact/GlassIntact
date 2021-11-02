@@ -1,48 +1,136 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en">
     <head>
-        <title> Product Description</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Product Description</title>
         <link rel="stylesheet" href="ProductDescription.css">
-        <link rel="icon" href="Graphics/logo.png"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="icon" href="Graphics/logo.png">
     </head>
 
     <body>
+
+        <!-- Text on Intro screen -->
+        <div class = "intro">
+            <h1 class = "logo-header">
+                <span class="logo">PRODUCT</span>
+                <span class="logo">DESCRIPTION</span>
+            </h1>
+        </div>
+
+        <!-- Nav Bar -->
         <nav class="navbar">
             <div class="navbar_container">
                 <a href="../index.html"class="navbar_logo">HOME </a>
                 <a href="../Our Mission/OurMission.html"class="navbar__links" id="about_page">Our Mission</a>
-                <a href="../Testimonials/Testimonials.html"class="navbar__links"id="testimonials">Testimonials</a>
+                <a href="../Testimon/Testimonials.html"class="navbar__links"id="testimonials">Testimonials</a>
                 <a href="../Product Description/ProductDescription.html"class="navbar__links"id="product">Product Description</a>
                 <a href="../Meet The Team/Meet The Team.html"class="navbar__links"id="team">Meet the Team</a>
                 <a href="../Proposed Locations/proposedlocations.html"class="navbar__links"id="locations">Proposed Locations</a>
             </div>
         </nav>
 
-        <div class = "header">
-            <div id='h1'>
-                <h1> Why Our Product?</h1>
+        <!-- Columns -->
+        <section>
+            <div class = "row">
+                <div class = "column">
+                    <!-- carousel -->
+                    <div class = "carousel">
+                        <div class = "slides">
+                            <!-- radio buttons -->
+                            <input type = "radio" name ="r" id = "rdb1" checked>
+                            <input type = "radio" name ="r" id = "rdb2">
+                            <input type = "radio" name ="r" id = "rdb3">
+                             <!-- images -->
+                            <div class = "image img1">
+                                <img src = "Graphics/cheers.jpg" alt = ""/>
+                            </div>
+                             <div class = "image">
+                                <img src = "Graphics/1st cups.jpg" alt = ""/>
+                             </div>
+                             <div class = "image">
+                                <img src = "Graphics/2nd cups.jpg" alt = ""/>
+                             </div>
+                            <!-- navigation -->
+                            <div class = "navigation">
+                                <label for = "rdb1" class = "bar"></label>
+                                <label for = "rdb2" class = "bar"></label>
+                                <label for = "rdb3" class = "bar"></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class = "column">
+                    <!-- text description -->
+                    <div class = "text">
+                        <div class = "header">
+                            <h1>Our Product</h1>
+                        </div>
+                        <div class = "description">
+                            <p>Here at GlassIntact we make premium cups
+                             that detect if a drink has been tampered with.</p>
+                            <p>Using high-tech LED lights,
+                            users will be alerted with a red light
+                            if their drink is spiked!</p>
+                            <p> We currently have two designs to choose from<br>
+                            and more to come.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </section>
 
-            <div id='h2'>
-                <p> Our cups have an embedded sensor that will <br>
-                    detect if a drink has been spiked!
-                </p>
-
-                <p> Using the latest technology developed by our company, <br>
-                    users will be alerted when their drink has been tampered <br>
-                    with through LED lights. 
-                </p>
-
-                <p> Protect you, your friends, and <br>
-                    everyone else around you with our cups
-                </p>
-
+        <section>
+            <div class = "item">
+                <img src = "Graphics/sensor in 2nd cup.jpg" alt = ""/>
+                <p>Embedded within each cup is a sensor made to detect <br>
+                common drugs used to spike drinks.</p>
             </div>
+        </section>
 
-            <div id='h3'>
-                <h2> BUY A GLASSINTACT CUP TODAY! </h2>
+        <section>
+            <div class = "ratings">
+                <div class = "extra reveal">
+                    <!-- User Rating (Stars)-->
+                    <div class = "user-rating">
+                       <h1 class = "heading">User Rating:</h1>
+                       <span class="fa fa-star fa-3x checked" id = "star"></span>
+                       <span class="fa fa-star fa-3x checked" id = "star"></span>
+                       <span class="fa fa-star fa-3x checked" id = "star"></span>
+                       <span class="fa fa-star fa-3x checked" id = "star" ></span>
+                       <span class="fa fa-star fa-3x checked" id = "star"></span>
+                   </div>
+               </div>
+               <div class = "more-info reveal">
+                <div class = "header" id = "first">
+                    <h1><i>Buy From GlassIntact</i></h1>
+                </div>
+                <div class = "description" id = "clicked">
+                    <p>(click above for more)</p>
+                </div>
+                <div class = "description" id = "second">
+                    <h3><i>and sip safely~</i></h3>
+                    <p> Starting from as low as $29.99.</p>
+                </div>
             </div>
         </div>
+        </section>
 
+        <section>
+            <div class = "button reveal">
+                <button class = "buy-option">SOLD OUT</button>
+                <p class = "description">We are currently restocking.<br>Thank you.</p>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <div class = "footer">
+            <p>Copyright © 2021 GlassIntact. All Rights Reserved</p>
+        </div>
+        
+        <!-- JSS Code -->
+        <script src = "ProductDescription.js"></script>
     </body>
 </html>
