@@ -10,7 +10,7 @@ $(document).ready(function(){
 
     $('.introductory-video').bind('ended', function(){
         $(this).parent().fadeOut();
-        $('.navbar').fadeIn(1499);
+        $('.navbar').fadeIn(1000);
         $('.mainbody').show();
         $('.mainbtn').show();
         $('#container').show();
