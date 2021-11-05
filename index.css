@@ -318,7 +318,7 @@ html{
 
 
 }
-.research1{
+#research1{
   margin-top:18em;
   margin-right:19em;
   float:right;
@@ -328,19 +328,8 @@ html{
   transition:all 1s ease-in-out;
   
 }
-.research1:hover{
-  transform:scaleX(1.1);
-}
-.research1 p{
-  font-family:'Roboto';
-  font-size:1.5em;
-  font-weight: lighter;
-  color:#F27980;
 
-}
-.research1 p sub{
-  font-size: 0.6em;
-}
+
 
 .divider{
   min-height: 1px;
@@ -392,10 +381,6 @@ html{
 
 
 
-#pie{
-  
-
-}
 
 
 

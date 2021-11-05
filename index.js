@@ -15,8 +15,14 @@ $(document).ready(function(){
         $('.mainbtn').show();
         $('#container').show();
         $('.homecontent').show();
-        $('.divider').show();
-        $('.research1').show();
+        $('#divider').show();
+        $('#research1').show();
         $('.percentage').show();
+        $('#my_dataviz').show();
+        
     })
 })
+
+
+
+
