@@ -17,7 +17,10 @@ html{
     font-size:6.9vh;
     
   }
-  
+  a:any-link{
+    color:white;
+    text-decoration: none;
+  }
   
   .navbar {
       background:#000000;
