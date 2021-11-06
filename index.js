@@ -8,6 +8,7 @@ $(document).ready(function(){
     $('.research1').hide();
     $('.percentage').hide();
     $('.slideshowbody').hide();
+    $('.cursor').show();
 
     $('.introductory-video').bind('ended', function(){
         $(this).parent().fadeOut();
@@ -20,6 +21,7 @@ $(document).ready(function(){
         $('#research1').show();
         $('.percentage').show();
         $('.slideshowbody').show();
+        $('.cursor').show();
         
     })
 })
