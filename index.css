@@ -1,6 +1,15 @@
 html{
   overflow-y: scroll;
 }
+@font-face {
+  font-family: "Montserrat";
+  src:url("Montserrat-Regular.ttf")
+}
+
+@font-face{
+  font-family: "Montserrat Bold";
+  src:url("Montserrat-Bold.ttf")
+}
 .mainbody{
     text-align:center;
     overflow:hidden;
@@ -12,7 +21,7 @@ html{
     -webkit-perspective: 1000;
     -webkit-transform: translate3d(0,0,0);
     color:#F27980;
-    font-family:'Roboto';
+    font-family:'Montserratat';
    
     font-size:6.9vh;
     
@@ -55,7 +64,7 @@ html{
       width:150px;
       text-decoration:none;
       height:100%;
-      font-family: 'Lato' ;
+      font-family: 'Montserrat' ;
   }
   
   
