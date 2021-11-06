@@ -7,6 +7,7 @@ $(document).ready(function(){
     $('.divider').hide();
     $('.research1').hide();
     $('.percentage').hide();
+    $('.slideshowbody').hide();
 
     $('.introductory-video').bind('ended', function(){
         $(this).parent().fadeOut();
@@ -18,7 +19,7 @@ $(document).ready(function(){
         $('#divider').show();
         $('#research1').show();
         $('.percentage').show();
-        $('#my_dataviz').show();
+        $('.slideshowbody').show();
         
     })
 })
