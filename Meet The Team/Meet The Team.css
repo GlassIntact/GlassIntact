@@ -11,16 +11,6 @@
 header {
 }
 
-/*
-#slideSource {
-    opacity: 1;
-    transition: opacity 1s; 
-  }
-  
-#slideSource.fade {
-    opacity: 0;
-  }
-*/
 .navbar {
     background:#000000;
     height: 80px;
@@ -91,8 +81,6 @@ header {
 .main-content{
     margin-top: 40px;
     
-    /*border: 2px solid #f27980;*/
-    /*background-color: whitesmoke;*/
 }
 
 .title{
@@ -119,19 +107,6 @@ p1 {
     color: white;
 }
 
-/*
-.topParagraph{
-    font-family: "Montserrat";
-    font-style: italic;
-    font-size: 16px;
-    margin-left: 500px;
-    margin-right: 500px;
-    margin-top: -20px;
-    margin-bottom: 100px;
-    color:grey;
-    text-align: center;
-}
-*/
 p5 {
     font-family: "Montserrat";
     font-style: italic;
@@ -149,7 +124,6 @@ font-family: "Montserrat Bold";
 position: center;
 margin-top: 30px;
 font-size: 50px;
-/*font-style: oblique;*/
 color:#f27980
 }
 
@@ -158,7 +132,6 @@ h5 {
     position: center;
     margin-top: 30px;
     font-size: 50px;
-    /*font-style: oblique;*/
     text-decoration: underline;
     text-decoration-thickness: 2px;
     color:#f27980
@@ -202,7 +175,6 @@ body{
 }
 
 .trueMeekyle{
-    /* border: 2px solid black;*/
      margin-left: 375px;
      margin-right: 50px;
      margin-bottom: 110px;
@@ -222,7 +194,6 @@ body{
  }
 
  .trueSamuel{
-    /* border: 2px solid black;*/
      margin-left: 375px;
      margin-right: 50px;
      margin-bottom: 100px;
@@ -242,7 +213,6 @@ body{
  }
 
 .trueDarshan{
-   /* border: 2px solid black;*/
     margin-left: 375px;
     margin-right: 50px;
     margin-bottom: 125px;
@@ -262,7 +232,7 @@ body{
  }
 
 .trueKristen{
-   /* border: 2px solid black;*/
+
     margin-left: 375px;
     margin-right: 50px;
     margin-bottom: 110px;
@@ -282,7 +252,6 @@ body{
  }
 
 .trueAndre{
-   /* border: 2px solid black;*/
     margin-left: 375px;
     margin-right: 50px;
     margin-bottom: 125px;
@@ -302,7 +271,6 @@ body{
  }
 
 .trueNodshley{
-   /* border: 2px solid black;*/
     margin-left: 375px;
     margin-right: 50px;
     margin-bottom: 150px;
@@ -322,84 +290,4 @@ div.content{
     width: 550px;
     border: 10px solid #f27980;
     margin: -50px
-}
-
-div.image{
-
-    border: 5px solid #f27980;
-    width: 300px;
-    height: 300px;
-}
-
-div#meekyle{
-    position: absolute;
-    left:100px;
-    top: 300px;
-
-}
-div#samuel{
-    position: absolute;
-    left:800px;
-    top: 300px;
-}
-
-div#darshan{
-    position: absolute;
-    left:100px;
-    top: 1500px;
-}
-
-div#andre{
-    position: absolute;
-    left:100px;
-    top: 900px;
-}
-
-div#kristen{
-    position: absolute;
-    left:800px;
-    top: 900px;
-}
-
-div#nodshley{
-    position: absolute;
-    left:800px;
-    top: 1500px;
-}
-
-div#image1{
-    position: absolute;
-    left:1100px;
-    top:550px
-}
-
-div#image2{
-    position: absolute;
-    left:400px;
-    top:800px
-}
-
-div#image3{
-    position: absolute;
-    left:400px;
-    top:450px
-    
-}
-
-div#image4{
-    position: absolute;
-    left:400px;
-    top: 450px
-}
-
-div#image5{
-    position: absolute;
-    left:400px;
-    top:450px
-}
-
-div#image6{
-    position: absolute;
-    left:400px;
-    top:450px
 }
