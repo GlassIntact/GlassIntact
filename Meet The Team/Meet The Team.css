@@ -93,7 +93,7 @@ header {
     font-size: 16px;
     position: relative;
     left: 250px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     margin-top: 25px;
     color:grey;
     
@@ -114,7 +114,7 @@ p5 {
     margin-left: 500px;
     margin-right: 500px;
     position: relative;
-    bottom: 75px;
+    bottom: 65px;
     color:lightgrey;
     text-align: center;
 }
@@ -177,7 +177,7 @@ body{
 .trueMeekyle{
      margin-left: 375px;
      margin-right: 50px;
-     margin-bottom: 110px;
+     margin-bottom: 100px;
  }
  
  .imageSamuel{
