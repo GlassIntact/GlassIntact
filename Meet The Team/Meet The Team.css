@@ -11,6 +11,16 @@
 header {
 }
 
+/*
+#slideSource {
+    opacity: 1;
+    transition: opacity 1s; 
+  }
+  
+#slideSource.fade {
+    opacity: 0;
+  }
+*/
 .navbar {
     background:#000000;
     height: 80px;
