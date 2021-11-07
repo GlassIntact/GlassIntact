@@ -46,8 +46,25 @@ header {
     height:100%;
     font-family: Tahoma ;
 }
-
-
+/*
+#bg {
+    position: fixed; 
+    top: -50%; 
+    left: -50%; 
+    width: 200%; 
+    height: 200%;
+  }
+  #bg img {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+  }
+*/
 
 .navbar__links:hover {
     border-color:black;
@@ -69,6 +86,16 @@ header {
     padding-right: 200px;
 
 }
+/*
+#bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    min-width: 100%;
+    min-height: 100%;
+}
+*/
 .navbar_logo:hover{
     transform: translateX(-0.20em);
     transition: all 0.5s ease;
@@ -77,11 +104,12 @@ header {
 .navbar_logo::after{
     transition:all 1s ease;
 }
-
+/*
 .main-content{
     margin-top: 40px;
     
 }
+*/
 
 .title{
     text-align: center;
@@ -93,8 +121,6 @@ header {
     font-size: 16px;
     position: relative;
     left: 250px;
-    margin-bottom: 40px;
-    margin-top: 25px;
     color:grey;
     
 }
@@ -103,9 +129,7 @@ h3 {
     color: #f27980;
 }
 
-p1 {
-    color: white;
-}
+
 
 p5 {
     font-family: "Montserrat";
@@ -122,7 +146,6 @@ p5 {
 h1 {
 font-family: "Montserrat Bold";
 position: center;
-margin-top: 30px;
 font-size: 50px;
 color:#f27980
 }
@@ -130,7 +153,6 @@ color:#f27980
 h5 {
     font-family: "Montserrat Bold";
     position: center;
-    margin-top: 30px;
     font-size: 50px;
     text-decoration: underline;
     text-decoration-thickness: 2px;
@@ -140,12 +162,15 @@ h5 {
 body{
     font-family: "Montserrat";
     font-size: 20px;
+    margin-right: auto;
     background-image: url("placeholderimg/citynight.jpg");
     background-size: auto;
     background-repeat: no-repeat;
     background-size:cover;
+    
 
 }
+
 
 #cf img {
   position:absolute;
@@ -162,118 +187,116 @@ body{
 
 .imageMeekyle{
     margin-left: 50px;
+    top: 300px;
     position: absolute;
-    top: 325px;
 
 }
 
 .overMeekyle{
     margin-left: 50px;
+    top: 300px;
     position: absolute;
-    top: 325px;
-
 }
 
 .trueMeekyle{
-     margin-left: 375px;
-     margin-right: 50px;
-     margin-bottom: 100px;
+     top:300px;
+     left: 375px;
+     position: relative;
  }
  
  .imageSamuel{
-     margin-left: 50px;
-     position: absolute;
-     top: 625px;
+    margin-left: 50px;
+    top: 650px;
+    position: absolute;
  
  }
 
  .overSamuel{
     margin-left: 50px;
+    top: 650px;
     position: absolute;
-    top: 625px;
  }
 
  .trueSamuel{
-     margin-left: 375px;
-     margin-right: 50px;
-     margin-bottom: 100px;
+    top:300px;
+    left: 375px;
+    position: relative;
  }
 
  .imageDarshan{
     margin-left: 50px;
+    top: 950px;
     position: absolute;
-    top: 925px;
 
 }
 
 .overDarshan{
     margin-left: 50px;
+    top: 950px;
     position: absolute;
-    top: 925px;
  }
 
 .trueDarshan{
-    margin-left: 375px;
-    margin-right: 50px;
-    margin-bottom: 125px;
+    top:400px;
+    left: 375px;
+    position: relative;
 }
 
 .imageKristen{
     margin-left: 50px;
+    top: 1250px;
     position: absolute;
-    top: 1225px;
 
 }
 
 .overKristen{
     margin-left: 50px;
+    top: 1250px;
     position: absolute;
-    top: 1225px;
  }
 
 .trueKristen{
-
-    margin-left: 375px;
-    margin-right: 50px;
-    margin-bottom: 110px;
+    top:500px;
+    left: 375px;
+    position: relative;
 }
 
 .imageAndre{
     margin-left: 50px;
+    top: 1550px;
     position: absolute;
-    top: 1525px;
 
 }
 
 .overAndre{
     margin-left: 50px;
+    top: 1550px;
     position: absolute;
-    top: 1525px;
  }
 
 .trueAndre{
-    margin-left: 375px;
-    margin-right: 50px;
-    margin-bottom: 125px;
+    top:610px;
+    left: 375px;
+    position: relative;
 }
 
 .imageNodshley{
     margin-left: 50px;
+    top: 1850px;
     position: absolute;
-    top: 1825px;
 
 }
 
 .overNodshley{
     margin-left: 50px;
+    top: 1850px;
     position: absolute;
-    top: 1825px;
  }
 
 .trueNodshley{
-    margin-left: 375px;
-    margin-right: 50px;
-    margin-bottom: 150px;
+    top:710px;
+    left: 375px;
+    position: relative;
 }
 
 div.body{
@@ -291,3 +314,38 @@ div.content{
     border: 10px solid #f27980;
     margin: -50px
 }
+
+.Meekyle{
+    color: white;
+
+}
+
+.Nodshley{
+    color: white;
+    position: absolute;
+    top: 50px;
+
+}
+
+.Darshan{
+    color: white;
+}
+
+.Kristen{
+    color: white;
+}
+
+.Andre{
+    color: white;
+}
+
+.Samuel{
+    color: white;
+}
+
+/*
+div{
+    margin:10px;
+    padding:10px
+}
+*/
