@@ -13,6 +13,7 @@ header {
 
 .navbar {
     background:#000000;
+    
     height: 80px;
     display:flex;
     justify-content:center;
@@ -24,19 +25,21 @@ header {
 }
 
 .navbar_container{
+    font-family: "Montserrat";
     display:flex;
     justify-content: space-between;
     height:80px;
     z-index:1;
     width: 100%;
     max-width:1300px;
-    margin: 0 auto;
+    margin: auto;
     padding: 0 50px;
     border:none;
     
 
 }
 .navbar__links{
+    font-family: "Montserrat";
     color:white;
     display:flex;
     align-items:center;
@@ -152,7 +155,7 @@ color:#f27980
 
 h5 {
     font-family: "Montserrat Bold";
-    position: center;
+    text-align: center;
     font-size: 50px;
     text-decoration: underline;
     text-decoration-thickness: 2px;
@@ -162,13 +165,10 @@ h5 {
 body{
     font-family: "Montserrat";
     font-size: 20px;
-    margin-right: auto;
     background-image: url("placeholderimg/citynight.jpg");
     background-size: auto;
     background-repeat: no-repeat;
-    background-size:cover;
-    
-
+    background-size: cover;
 }
 
 
@@ -291,6 +291,7 @@ body{
     margin-left: 50px;
     top: 1850px;
     position: absolute;
+    margin-bottom: 100px;
  }
 
 .trueNodshley{
