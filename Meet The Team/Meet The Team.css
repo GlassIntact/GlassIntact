@@ -11,6 +11,10 @@
 header {
 }
 
+html{
+    overflow-x:hidden;
+}
+
 .navbar {
     background:#000000;
     
@@ -120,32 +124,29 @@ header {
 
 .meetTheTeam{
     text-align: center;
-    font-family: "Montserrat";
     font-size: 16px;
-    position: relative;
-    left: 250px;
-    color:grey;
-    
+    position: absolute;
+
+    color:lightgrey; 
 }
 
 h3 {
     color: #f27980;
 }
 
-
+/*
 
 p5 {
     font-family: "Montserrat";
+    position: center;
     font-style: italic;
     font-size: 16px;
-    margin-left: 500px;
+   margin-left: 500px;
     margin-right: 500px;
-    position: relative;
-    bottom: 65px;
     color:lightgrey;
-    text-align: center;
-}
 
+}
+*/
 h1 {
 font-family: "Montserrat Bold";
 position: center;
@@ -163,12 +164,16 @@ h5 {
 }
 
 body{
+    
     font-family: "Montserrat";
     font-size: 20px;
-    background-image: url("placeholderimg/citynight.jpg");
+    background-image: url("placeholderimg/citynight.png");
     background-size: auto;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
+    margin-right:10px;
+
+    
 }
 
 
@@ -218,7 +223,7 @@ body{
  }
 
  .trueSamuel{
-    top: 275px;
+    top: 335px;
     left: 375px;
     position: relative;
  }
@@ -237,7 +242,7 @@ body{
  }
 
 .trueDarshan{
-    top:375px;
+    top:435px;
     left: 375px;
     position: relative;
 }
@@ -256,7 +261,7 @@ body{
  }
 
 .trueKristen{
-    top:475px;
+    top:535px;
     left: 375px;
     position: relative;
 }
@@ -275,7 +280,7 @@ body{
  }
 
 .trueAndre{
-    top:585px;
+    top:645px;
     left: 375px;
     position: relative;
 }
@@ -295,7 +300,7 @@ body{
  }
 
 .trueNodshley{
-    top:685px;
+    top:745px;
     left: 375px;
     position: relative;
 }
@@ -331,7 +336,6 @@ div.content{
 .Darshan{
     color: white;
 }
-
 .Kristen{
     color: white;
 }
@@ -350,3 +354,7 @@ div{
     padding:10px
 }
 */
+
+.yourEverything{
+    
+}
