@@ -166,6 +166,7 @@ body{
     background-size: auto;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 
@@ -346,3 +347,7 @@ div{
     padding:10px
 }
 */
+
+.yourEverything{
+    margin-bottom: 204px;
+}
