@@ -441,7 +441,7 @@ html{
   border-style:solid;
   border-width: 0.001em;
   color:cyan;
-  box-shadow: 0 0.5em 0.5em -0.4em #F27980;
+  box-shadow: 0 1em 1em -0.4em #F27980;
   transform: translateY(-1.3em);
   cursor:pointer;
   
