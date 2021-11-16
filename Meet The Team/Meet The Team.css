@@ -58,7 +58,7 @@ html{
     transition: all 0.5s ease;
 }
 
-.navbar__links#product {
+.navbar__links#team {
     text-decoration: underline 2px #fcafae;
 }
 
