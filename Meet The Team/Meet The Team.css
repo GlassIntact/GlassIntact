@@ -281,7 +281,7 @@ body{
  }
 
 .trueAndre{
-    top:645px;
+    top:625px;
     left: 375px;
     position: relative;
 }
@@ -301,7 +301,7 @@ body{
  }
 
 .trueNodshley{
-    top:755px;
+    top:730px;
     left: 375px;
     position: relative;
 }
@@ -356,12 +356,13 @@ div{
 }
 */
 
-.footer {
+.footer{
+    top: 600px;
     color: #fcafae;
     text-align:center;
-    font-size: 13px;
-    top: 500px;
-}
+    position: relative;
+    left:50px;
+ }
 .yourEverything{
     
 }
