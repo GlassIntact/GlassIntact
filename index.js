@@ -1,5 +1,4 @@
 $(document).ready(function(){
-    $('.navbar').hide();
     $('.mainbody').hide();
     $('.mainbtn').hide();
     $('#container').hide();
@@ -13,7 +12,7 @@ $(document).ready(function(){
 
     $('.introductory-video').bind('ended', function(){
         $(this).parent().fadeOut();
-        $('.navbar').fadeIn(1000);
+        $('.navbar').fadeIn(1499);
         $('.mainbody').show();
         $('.mainbtn').show();
         $('#container').show();

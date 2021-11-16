@@ -4,6 +4,7 @@ $(document).ready(function(){
     $('.map').hide();
     $('.bars-info').hide();
     $('.scroll-image').hide();
+    $('.footer').hide();
 
     $('.line1').fadeIn(1000, function(){
         $('.line1').animate({fontSize: 48}, function() {
@@ -11,6 +12,7 @@ $(document).ready(function(){
             $('.map').fadeIn(1000);
             $('.bars-info').show();
             $('.scroll-image').show();
+            $('.footer').show();
         });
     });
 
