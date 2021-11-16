@@ -193,3 +193,9 @@ body{
     color: white;
     font-weight: bold;
 }
+
+.footer {
+    color: #fcafae;
+    text-align:center;
+    font-size: 13px;
+}
