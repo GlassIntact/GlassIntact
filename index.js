@@ -6,6 +6,9 @@ $(document).ready(function(){
     $('.divider').hide();
     $('.research1').hide();
     $('.percentage').hide();
+    $('.slideshowbody').hide();
+    $('.photos').hide();
+
 
     $('.introductory-video').bind('ended', function(){
         $(this).parent().fadeOut();
@@ -14,8 +17,15 @@ $(document).ready(function(){
         $('.mainbtn').show();
         $('#container').show();
         $('.homecontent').show();
-        $('.divider').show();
-        $('.research1').show();
+        $('#divider').show();
+        $('#research1').show();
         $('.percentage').show();
+        $('.slideshowbody').show();
+        $('.photos').fadeIn(5000);
+        
     })
 })
+
+
+
+

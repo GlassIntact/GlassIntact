@@ -11,79 +11,113 @@
 header {
 }
 
+html{
+    overflow-x:hidden;
+}
+
 .navbar {
-    background:#000000;
+    background: #000000;
     height: 80px;
-    display:flex;
-    justify-content:center;
+    display: flex;
+    justify-content: center;
     align-items: center;
     font-size: 1rem;
-    position:sticky;
-    top:0;
-    z-index:999;
+    position: sticky;
+    top: 0;
+    z-index: 999;
 }
 
 .navbar_container{
-    display:flex;
+    display: flex;
     justify-content: space-between;
-    height:80px;
-    z-index:1;
+    height: 80px;
+    z-index: 1;
     width: 100%;
-    max-width:1300px;
+    max-width: 1300px;
     margin: 0 auto;
     padding: 0 50px;
-    border:none;
-    
-
+    border: none;
 }
+
 .navbar__links{
-    color:white;
-    display:flex;
-    align-items:center;
+    color: white;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    width:150px;
-    text-decoration:none;
-    height:100%;
-    font-family: Tahoma ;
+    width: 100px;
+    text-decoration: none;
+    height: 100%;
+    font-family: "Montserrat";
 }
-
-
 
 .navbar__links:hover {
     border-color:black;
     color: #fcafae;
     transform: translateY(-0.30em);
-    cursor:pointer;
+    cursor: pointer;
     transition: all 0.5s ease;
-      }
-    
+}
+
+.navbar__links#team {
+    text-decoration: underline 2px #fcafae;
+}
 
 .navbar_logo {
-    background-color:black;
-    color:#fcafae;
+    color: #fcafae;
     display: flex;
     align-items: center;
     cursor: pointer;
     text-decoration: none;
     font-size: 2ems;
     padding-right: 200px;
+    font-family: "Montserrat";
+}
 
-}
 .navbar_logo:hover{
-    transform: translateX(-0.20em);
-    transition: all 0.5s ease;
-   
+    transform: translate3d(-1rem, 0, 1rem);
+    transition: all 1s ease;
 }
+
 .navbar_logo::after{
     transition:all 1s ease;
 }
 
+/*
+#bg {
+    position: fixed; 
+    top: -50%; 
+    left: -50%; 
+    width: 200%; 
+    height: 200%;
+  }
+  #bg img {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+  }
+*/
+
+/*
+#bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    min-width: 100%;
+    min-height: 100%;
+}
+*/
+/*
 .main-content{
     margin-top: 40px;
     
-    /*border: 2px solid #f27980;*/
-    /*background-color: whitesmoke;*/
 }
+*/
 
 .title{
     text-align: center;
@@ -91,78 +125,58 @@ header {
 
 .meetTheTeam{
     text-align: center;
-    font-family: "Montserrat";
     font-size: 16px;
-    position: relative;
-    left: 250px;
-    margin-bottom: 30px;
-    margin-top: 25px;
-    color:grey;
-    
+    position: absolute;
+
+    color:lightgrey; 
 }
 
 h3 {
     color: #f27980;
 }
 
-p1 {
-    color: white;
-}
-
 /*
-.topParagraph{
-    font-family: "Montserrat";
-    font-style: italic;
-    font-size: 16px;
-    margin-left: 500px;
-    margin-right: 500px;
-    margin-top: -20px;
-    margin-bottom: 100px;
-    color:grey;
-    text-align: center;
-}
-*/
+
 p5 {
     font-family: "Montserrat";
+    position: center;
     font-style: italic;
     font-size: 16px;
-    margin-left: 500px;
+   margin-left: 500px;
     margin-right: 500px;
-    position: relative;
-    bottom: 75px;
     color:lightgrey;
-    text-align: center;
-}
 
+}
+*/
 h1 {
 font-family: "Montserrat Bold";
 position: center;
-margin-top: 30px;
 font-size: 50px;
-/*font-style: oblique;*/
 color:#f27980
 }
 
 h5 {
     font-family: "Montserrat Bold";
-    position: center;
-    margin-top: 30px;
+    text-align: center;
     font-size: 50px;
-    /*font-style: oblique;*/
     text-decoration: underline;
     text-decoration-thickness: 2px;
     color:#f27980
 }
 
 body{
+    
     font-family: "Montserrat";
     font-size: 20px;
-    background-image: url("placeholderimg/citynight.jpg");
+    background-image: url("placeholderimg/citynight.png");
     background-size: auto;
-    background-repeat: no-repeat;
-    background-size:cover;
+    background-repeat: repeat;
+    background-size: cover;
+    margin-right:10px;
 
+    
 }
+
 
 #cf img {
   position:absolute;
@@ -179,123 +193,117 @@ body{
 
 .imageMeekyle{
     margin-left: 50px;
+    top: 300px;
     position: absolute;
-    top: 325px;
 
 }
 
 .overMeekyle{
     margin-left: 50px;
+    top: 300px;
     position: absolute;
-    top: 325px;
-
 }
 
 .trueMeekyle{
-    /* border: 2px solid black;*/
-     margin-left: 375px;
-     margin-right: 50px;
-     margin-bottom: 100px;
+     top:300px;
+     left: 375px;
+     position: relative;
  }
  
  .imageSamuel{
-     margin-left: 50px;
-     position: absolute;
-     top: 625px;
+    margin-left: 50px;
+    top: 650px;
+    position: absolute;
  
  }
 
  .overSamuel{
     margin-left: 50px;
+    top: 650px;
     position: absolute;
-    top: 625px;
  }
 
  .trueSamuel{
-    /* border: 2px solid black;*/
-     margin-left: 375px;
-     margin-right: 50px;
-     margin-bottom: 110px;
+    top: 335px;
+    left: 375px;
+    position: relative;
  }
 
  .imageDarshan{
     margin-left: 50px;
+    top: 950px;
     position: absolute;
-    top: 925px;
 
 }
 
 .overDarshan{
     margin-left: 50px;
+    top: 950px;
     position: absolute;
-    top: 925px;
  }
 
 .trueDarshan{
-   /* border: 2px solid black;*/
-    margin-left: 375px;
-    margin-right: 50px;
-    margin-bottom: 100px;
+    top:435px;
+    left: 375px;
+    position: relative;
 }
 
 .imageKristen{
     margin-left: 50px;
+    top: 1250px;
     position: absolute;
-    top: 1225px;
 
 }
 
 .overKristen{
     margin-left: 50px;
+    top: 1250px;
     position: absolute;
-    top: 1225px;
  }
 
 .trueKristen{
-   /* border: 2px solid black;*/
-    margin-left: 375px;
-    margin-right: 50px;
-    margin-bottom: 110px;
+    top:535px;
+    left: 375px;
+    position: relative;
 }
 
 .imageAndre{
     margin-left: 50px;
+    top: 1550px;
     position: absolute;
-    top: 1525px;
 
 }
 
 .overAndre{
     margin-left: 50px;
+    top: 1550px;
     position: absolute;
-    top: 1525px;
  }
 
 .trueAndre{
-   /* border: 2px solid black;*/
-    margin-left: 375px;
-    margin-right: 50px;
-    margin-bottom: 125px;
+    top:645px;
+    left: 375px;
+    position: relative;
 }
 
 .imageNodshley{
     margin-left: 50px;
+    top: 1850px;
     position: absolute;
-    top: 1825px;
 
 }
 
 .overNodshley{
     margin-left: 50px;
+    top: 1850px;
     position: absolute;
-    top: 1825px;
+    margin-bottom: 100px;
  }
 
 .trueNodshley{
-   /* border: 2px solid black;*/
-    margin-left: 375px;
-    margin-right: 50px;
-    margin-bottom: 150px;
+    top:745px;
+    left: 375px;
+    position: relative;
 }
 
 div.body{
@@ -314,82 +322,45 @@ div.content{
     margin: -50px
 }
 
-div.image{
-
-    border: 5px solid #f27980;
-    width: 300px;
-    height: 300px;
-}
-
-div#meekyle{
-    position: absolute;
-    left:100px;
-    top: 300px;
+.Meekyle{
+    color: white;
 
 }
-div#samuel{
+
+.Nodshley{
+    color: white;
     position: absolute;
-    left:800px;
-    top: 300px;
+    top: 50px;
+
 }
 
-div#darshan{
-    position: absolute;
-    left:100px;
-    top: 1500px;
+.Darshan{
+    color: white;
+}
+.Kristen{
+    color: white;
 }
 
-div#andre{
-    position: absolute;
-    left:100px;
-    top: 900px;
+.Andre{
+    color: white;
 }
 
-div#kristen{
-    position: absolute;
-    left:800px;
-    top: 900px;
+.Samuel{
+    color: white;
 }
 
-div#nodshley{
-    position: absolute;
-    left:800px;
-    top: 1500px;
+/*
+div{
+    margin:10px;
+    padding:10px
 }
+*/
 
-div#image1{
-    position: absolute;
-    left:1100px;
-    top:550px
+.footer {
+    color: #fcafae;
+    text-align:center;
+    font-size: 13px;
 }
-
-div#image2{
-    position: absolute;
-    left:400px;
-    top:800px
-}
-
-div#image3{
-    position: absolute;
-    left:400px;
-    top:450px
+.yourEverything{
     
-}
-
-div#image4{
-    position: absolute;
-    left:400px;
-    top: 450px
-}
-
-div#image5{
-    position: absolute;
-    left:400px;
-    top:450px
-}
-
-div#image6{
-    position: absolute;
-    left:400px;
-    top:450px
 }
