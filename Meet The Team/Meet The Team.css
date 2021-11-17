@@ -262,7 +262,7 @@ body{
  }
 
 .trueKristen{
-    top:535px;
+    top:515px;
     left: 375px;
     position: relative;
 }
@@ -281,7 +281,7 @@ body{
  }
 
 .trueAndre{
-    top:625px;
+    top:605px;
     left: 375px;
     position: relative;
 }
@@ -339,7 +339,7 @@ section{
 }
 
 .trueNodshley{
-    top:730px;
+    top:710px;
     left: 375px;
     position: relative;
 }
@@ -397,6 +397,7 @@ div{
 .footer{
     top: 600px;
     color: #fcafae;
+    font-size: 13px;
     text-align:center;
     position: relative;
     left:50px;
