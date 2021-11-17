@@ -138,11 +138,13 @@ html{
     padding: 1em 3em;
     font-size: 1em;
     transition: all 1s ease-in-out;
-    margin-left:30.625em;
-        /*display:flex;*/
+   /* margin-left:30.625em;*/
+   /*display:flex;*/
     font-family:'Lato';
     border-radius:0.3em;
     justify-content: center;
+    margin:0 auto;
+    display:flex;
 
   
     
