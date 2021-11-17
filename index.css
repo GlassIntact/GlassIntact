@@ -24,6 +24,7 @@ html{
     font-family:'Montserratat';
    
     font-size:6.9vh;
+    position:static;
     
   }
   a:any-link{
@@ -33,7 +34,7 @@ html{
   
   .navbar {
       background:#000000;
-      height: 80px;
+      height: 5em;
       display:flex;
       justify-content:center;
       align-items: center;
@@ -46,7 +47,7 @@ html{
   .navbar_container{
       display:flex;
       justify-content: space-between;
-      height:80px;
+      height:5em;
       z-index:1;
       width: 100%;
       max-width:1300px;
@@ -61,7 +62,7 @@ html{
       display:flex;
       align-items:center;
       justify-content: center;
-      width:150px;
+      width:1em;
       text-decoration:none;
       height:100%;
       font-family: 'Montserrat' ;
@@ -86,7 +87,7 @@ html{
       cursor: pointer;
       text-decoration: none;
       font-size: 2ems;
-      padding-right: 200px;
+      padding-right: 12.5em;
       font-family:'Lato';
   
   }
@@ -103,7 +104,7 @@ html{
     display: block;
     margin: 0 auto;
     width: 90%;
-    height: 450px;
+    height: 28.125em;
     
   }
   
@@ -117,37 +118,15 @@ html{
     
   }
   .main:last-of-type {
-    width:0px;
+    width:0em;
     animation: reveal 7s infinite;
    
   }
   main:last-of-type span {
-    margin-left:-355px;
+    margin-left:22.1875em;
     animation: slidein 7s infinite;
   }
-  @keyframes showup {
-    0% {opacity: 0;}
-    20% {opacity: 1;}
-    80% {opacity:1;}
-    100% {opacity:0;}
-  }
-  .firstword{
-    animation:showup 1s infinite;
-  }
-  @keyframes slidein {
-    0% {margin-left:-800px;}
-    20% {margin-left:-800px; }
-    35% {margin-left:0px; }
-    100% {margin-left:0px; }
-    
-  }
-  @keyframes reveal {
-    0% {opacity:0;width:0px;}
-    20% {opacity:1;width:0px;}
-    30% {width:300px;}
-    80% {opacity:1;}
-    100% {opacity:0;width:300px;}
-  }
+
   
   .mainbtn:first-of-type{
     animation: showup 20s;
@@ -155,15 +134,15 @@ html{
   .mainbtn{
     background: #F27980;
     color:white;
-    border:2px solid;
+    border:0.125em solid;
     padding: 1em 3em;
     font-size: 1em;
     transition: all 1s ease-in-out;
-    margin-left:650px;
-    justify-content:center;
-    display:flex;
+    margin-left:30.625em;
+        /*display:flex;*/
     font-family:'Lato';
     border-radius:0.3em;
+    justify-content: center;
 
   
     
@@ -185,12 +164,13 @@ html{
   .mainbtn{
     background: #F27980;
     color:white;
-    border:2px solid;
+    border:0.125em solid;
     padding: 1em 3em;
     font-size: 1em;
     transition: all 0.25s ease-in-out;
-    margin-left:650px;
-    justify-content:center;
+    margin-left:40.625em;
+    align-items: center;
+  
     display:flex;
     font-family:'Lato';
   
@@ -207,12 +187,12 @@ html{
 
 #logo_image{
   width:20%;
-  margin-right: 0px;
+  margin-right: 0em;
   transition:1s;
   padding-top: 30em;
   flex-basis:40%;
   display:flex;
-  padding-left:20px;
+  padding-left:1.25em;
   box-sizing: border-box;
   border-radius: 0.1em;
 
@@ -243,15 +223,15 @@ html{
 
 .homecontent p {
 
-  margin-top: 100px;
+  margin-top: 6.25em;
 
   float:right;
-  padding-left:20px;
+  padding-left:1.25em;
   font-family:'Roboto';
   font-size: 1.3em;
   color:#F27980;
-  padding-right:20px;
-  margin-right:60px;
+  padding-right:1.25em;
+  margin-right:1.25em;
   
 
 }
@@ -263,7 +243,7 @@ html{
   padding: 1em 2em;
   font-size: 1em;
   transition: all 1s ease-in-out;
-  margin-right:60px;
+  margin-right:3.75em;
   font-family:'Lato';
   border:black;
   box-sizing:border-box;
@@ -447,4 +427,24 @@ html{
   
 }
 
+*{
+  box-sizing: border-box;
+}
 
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+  #primary { width:67%; }
+  #secondary { width:30%; margin-left:0%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+  #primary { width:100%; }
+  #secondary { width:100%; margin:0; border:none; }
+}
+
+img { max-width: 100%; height: auto; }
+html { font-size:100%;}
+@media (min-width: 640px) { body {font-size:0.5rem;} } 
+@media (min-width:960px) { body {font-size:0.3rem;} } 
+@media (min-width:1100px) { body {font-size:0.7rem;} } 
