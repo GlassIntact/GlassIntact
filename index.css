@@ -20,12 +20,24 @@ html{
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
     -webkit-transform: translate3d(0,0,0);
-    color:#F27980;
+    color:#ffffff;
     font-family:'Montserratat';
-   
-    font-size:6.9vh;
-    position:static;
-    
+   text-align:center;
+   text-decoration: underline #ffffff 5px;
+    font-size:8.9vh;
+    width:100%;
+    min-height:100%;
+    background-image:url("joakim-honkasalo-gKMxcHB3U3E-unsplash.jpg");
+    background-size: cover;
+    background-position:center center;
+    /*background-attachment: fixed;*/
+    border: 2px solid black;
+    margin-bottom:2.5em ;
+  }
+  .mainbody h3{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 6em;
   }
   a:any-link{
     color:white;
@@ -43,7 +55,16 @@ html{
       top:0;
       z-index:999;
   }
-  
+  .dummy{
+    text-align:center;
+    align-items: center;
+  }
+  .textfor{
+    position:absolute;
+    top:5%;
+    left:50%;
+    transform:translate(-50%,-50%);
+  }
   .navbar_container{
       display:flex;
       justify-content: space-between;
@@ -90,6 +111,9 @@ html{
       padding-right: 12.5em;
       font-family:'Lato';
   
+  }
+  .trying-something{
+    display:inline-block;
   }
   .navbar_logo:hover{
       transform: translateX(-0.20em);
@@ -144,7 +168,7 @@ html{
     border-radius:0.3em;
     justify-content: center;
     margin:0 auto;
-    display:flex;
+    display:inline-block;
 
   
     
@@ -225,7 +249,7 @@ html{
 
 .homecontent p {
 
-  margin-top: 6.25em;
+  margin-top: 2em;
 
   float:right;
   padding-left:1.25em;
@@ -433,20 +457,16 @@ html{
   box-sizing: border-box;
 }
 
-/* Media Queries: Tablet Landscape */
-@media screen and (max-width: 1060px) {
-  #primary { width:67%; }
-  #secondary { width:30%; margin-left:0%;}  
-}
 
-/* Media Queries: Tabled Portrait */
-@media screen and (max-width: 768px) {
-  #primary { width:100%; }
-  #secondary { width:100%; margin:0; border:none; }
-}
 
-img { max-width: 100%; height: auto; }
-html { font-size:100%;}
-@media (min-width: 640px) { body {font-size:0.5rem;} } 
-@media (min-width:960px) { body {font-size:0.3rem;} } 
-@media (min-width:1100px) { body {font-size:0.7rem;} } 
+
+
+/*@media (min-width: 640px) { body {font-size:0.5rem;} }*/
+/*@media (min-width:960px) { body {font-size:0.5rem;} } */
+/*@media (min-width:1100px) { body {font-size:0.55rem;} }*/
+
+.footer {
+  color: #fcafae;
+  text-align:center;
+  font-size: 13px;
+}

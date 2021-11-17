@@ -8,20 +8,23 @@ $(document).ready(function(){
     $('.percentage').hide();
     $('.slideshowbody').hide();
     $('.photos').hide();
+    $('.footer').hide();
+
 
 
     $('.introductory-video').bind('ended', function(){
         $(this).parent().fadeOut();
         $('.navbar').fadeIn(1499);
-        $('.mainbody').show();
+        $('.mainbody').fadeIn(5000);
         $('.mainbtn').show();
         $('#container').show();
-        $('.homecontent').show();
+        $('.homecontent').fadeIn(8000);
         $('#divider').show();
         $('#research1').show();
         $('.percentage').show();
         $('.slideshowbody').show();
         $('.photos').fadeIn(5000);
+        $('.footer').fadeIn(7000);
         
     })
 })
