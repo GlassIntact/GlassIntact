@@ -9,6 +9,7 @@ $(document).ready(function(){
     $('.slideshowbody').hide();
     $('.photos').hide();
     $('.footer').hide();
+    $('.navbar').hide();
 
 
 

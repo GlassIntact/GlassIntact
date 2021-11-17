@@ -43,18 +43,74 @@ html{
     color:white;
     text-decoration: none;
   }
-  
   .navbar {
-      background:#000000;
-      height: 5em;
-      display:flex;
-      justify-content:center;
-      align-items: center;
-      font-size: 1rem;
-      position:sticky;
-      top:0;
-      z-index:999;
-  }
+    background: #000000;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar_container{
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 50px;
+  border: none;
+}
+  .navbar_links{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    text-decoration: none;
+    height: 100%;
+    font-family: "Montserrat";
+}
+
+.navbar_links:hover{
+    border-color: black;
+    color: #fcafae;
+    transform: translateY(-0.30em);
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.navbar_links#current{
+    text-decoration: underline 2px #fcafae;
+}
+
+.navbar_logo{
+    color: #fcafae;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2ems;
+    padding-right: 200px;
+    font-family: "Montserrat";
+}
+
+.navbar_logo:hover{
+    transform: translate3d(-1rem, 0, 1rem);
+    transition: all 1s ease;
+}
+
+.navbar_logo::after{
+    transition: all 1s ease;
+}
+  
+  
+
   .dummy{
     text-align:center;
     align-items: center;
@@ -65,64 +121,16 @@ html{
     left:50%;
     transform:translate(-50%,-50%);
   }
-  .navbar_container{
-      display:flex;
-      justify-content: space-between;
-      height:5em;
-      z-index:1;
-      width: 100%;
-      max-width:1300px;
-      margin: 0 auto;
-      padding: 0 50px;
-      border:none;
-      
-  
-  }
-  .navbar__links{
-      color:white;
-      display:flex;
-      align-items:center;
-      justify-content: center;
-      width:1em;
-      text-decoration:none;
-      height:100%;
-      font-family: 'Montserrat' ;
-  }
   
   
   
-  .navbar__links:hover {
-      border-color:black;
-      color: #fcafae;
-      transform: translateY(-0.30em);
-      cursor:pointer;
-      transition: all 0.5s ease;
-        }
-      
   
-  .navbar_logo {
-      background-color:black;
-      color:#fcafae;
-      display: flex;
-      align-items: center;
-      cursor: pointer;
-      text-decoration: none;
-      font-size: 2ems;
-      padding-right: 12.5em;
-      font-family:'Lato';
   
-  }
+ 
   .trying-something{
     display:inline-block;
   }
-  .navbar_logo:hover{
-      transform: translateX(-0.20em);
-      transition: all 0.5s ease;
-     
-  }
-  .navbar_logo::after{
-      transition:all 1s ease;
-  }
+  
   
   .introductory-video{
     display: block;
@@ -469,4 +477,74 @@ html{
   color: #fcafae;
   text-align:center;
   font-size: 13px;
+}
+
+
+/*The main content of the webpage*/
+
+.navbar {
+  background: #000000;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar_container{
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 50px;
+  border: none;
+}
+
+.navbar__links{
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  text-decoration: none;
+  height: 100%;
+  font-family: "Montserrat";
+}
+
+.navbar__links:hover {
+  border-color:black;
+  color: #fcafae;
+  transform: translateY(-0.30em);
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.navbar__links#product {
+  text-decoration: underline 2px #fcafae;
+}
+
+.navbar_logo {
+  color: #fcafae;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2ems;
+  padding-right: 200px;
+  font-family: "Montserrat";
+}
+
+.navbar_logo:hover{
+  transform: translate3d(-1rem, 0, 1rem);
+  transition: all 1s ease;
+}
+
+.navbar_logo::after{
+  transition:all 1s ease;
 }
