@@ -10,12 +10,14 @@ $(document).ready(function(){
     $('.photos').hide();
     $('.footer').hide();
     $('.navbar').hide();
+    $('.navbar_logo').hide();
 
 
 
     $('.introductory-video').bind('ended', function(){
         $(this).parent().fadeOut();
         $('.navbar').fadeIn(1499);
+        $('.navbar_logo').fadeIn(2000);
         $('.mainbody').fadeIn(5000);
         $('.mainbtn').show();
         $('#container').show();
