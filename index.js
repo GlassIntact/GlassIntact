@@ -11,6 +11,7 @@ $(document).ready(function(){
     $('.footer').hide();
     $('.navbar').hide();
     $('.navbar_logo').hide();
+    $('.split').hide();
 
 
 
@@ -19,15 +20,9 @@ $(document).ready(function(){
         $('.navbar').fadeIn(1499);
         $('.navbar_logo').fadeIn(2000);
         $('.mainbody').fadeIn(5000);
-        $('.mainbtn').show();
-        $('#container').show();
         $('.homecontent').fadeIn(8000);
-        $('#divider').show();
-        $('#research1').show();
-        $('.percentage').show();
-        $('.slideshowbody').show();
-        $('.photos').fadeIn(5000);
-        $('.footer').fadeIn(7000);
+        $('.footer').fadeIn(5000);
+        $('.split').fadeIn(5000);
         
     })
 })
