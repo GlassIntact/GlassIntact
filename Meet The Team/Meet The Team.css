@@ -120,8 +120,6 @@ body{
     background-repeat: repeat;
     background-size: cover;
     margin-right:10px;
-
-    
 }
 
 
@@ -333,13 +331,6 @@ div.content{
 .Samuel{
     color: white;
 }
-
-/*
-div{
-    margin:10px;
-    padding:10px
-}
-*/
 
 .footer{
     top: 600px;
